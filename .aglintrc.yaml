@@ -4,3 +4,23 @@ extends:
   - aglint:recommended
 syntax:
   - AdGuard
+rules:
+  no-excluded-rules:
+    - error
+    - regexp-patterns:
+        # Do not forget to escape special regex characters
+        # https://github.com/AdguardTeam/AdguardFilters/issues/191068#issuecomment-2480464336
+        - ^(\/sd)?_ads_updater-$
+        - ^\|\|b\.karte\.io
+        - ^\|\|static\.karte\.io
+        # https://github.com/AdguardTeam/AdguardFilters/commit/a64fb16a9c0ba926f980ca5091ca6d39eeb6ef40
+        - ^tuma(douga)?\.jp##\.index_banner_space$
+        - static-assets\.bamgrid\.com\/analytics
+        - staff-start\.com\/js\/track\/
+        - minkou.jp\/js\/tracking\.js
+        - amazon.com\/1\/batch\/1\/OP\/
+        - amazon.com\/1\/batch\/1\/OE\/
+        # https://github.com/AdguardTeam/AdguardFilters/pull/189856#issuecomment-2422639077
+        - youtube\.com\^\$removeparam=si$
+        # https://github.com/AdguardTeam/AdguardFilters/issues/195335
+        - syndication\.twitter\.com\^

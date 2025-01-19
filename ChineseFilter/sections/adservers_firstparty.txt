@@ -7,6 +7,9 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||abc.ruodian360.com^
+||xmm.wxc.cc^
+||srtb.msn.cn^
 ||ad.hot-mob.com^
 ||ad*.on.cc^
 ||adx.36kr.com^
