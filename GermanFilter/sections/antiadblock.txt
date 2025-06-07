@@ -824,8 +824,6 @@ schnittmuster-datenbank.de#%#//scriptlet("abort-on-property-read", "adsBlocked")
 !#endif
 !
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/206918
-@@||imasdk.googleapis.com/js/core/dai_iframe3$domain=southpark.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/201926
 karoqforum.de#%#//scriptlet('prevent-eval-if', 'adsbygoogle.js')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -1008,6 +1006,7 @@ sinoptik.de#$?#body > iframe[name]:not([class]):not([id]):not([src])[style="disp
 ||sinoptik.de/js/*/concat.min.js$replace=/(document\.createElement\("script"\)\)\.textContent=')[\s\S]*?(zmctrack|ShadowRoot)[\s\S]*?('\,)/\$1\$3/,domain=sinoptik.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84067
 ||mms.blick.ch^$script
+||tinypass.com^$domain=blick.ch
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81081
 @@||trafficfabrik.com/mine.js
 ! zappn.tv - antiadblock

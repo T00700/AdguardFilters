@@ -84,6 +84,10 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+s.resemom.jp##div[style^="z-index:9999999;position:-webkit-sticky;position:fixed;left:0;text-align:center;bottom:0;width:100%;"]
+tennisbear.net##.float-banner
+nikkan-gendai.com#$#footer > div.copy { padding-bottom: 40px !important; }
+vuzopedia.ru##.underhRecl
 telugu.samayam.com##.fbnad
 medicalnewstoday.com##aside[data-testid="mobile-leaderboard"]
 hk.news.yahoo.com###sda-anchored-btm-sticky-iframe
@@ -204,11 +208,6 @@ fapnow.*##.mobile-menu
 beemtube.com##.sponsored-below-player
 beemtube.com##div[style]:has(> ins[data-zoneid])
 teenager365.to##.avd-under-video-mob
-m.yelp.com###BottomAdStandard
-m.yelp.com##section[data-testid="BottomAdStandard"]
-m.yelp.com##div[class*="main-content__"] > div > ol > li:has(div[data-traffic-crawl-id="SearchResultBizName"] > h3 > a[href^="/adredir?ad_business_id="])
-m.yelp.com##div[class*="main-content__"] > div > ol > li:has(> div[class*="sponsored-icon__"])
-m.yelp.com##section[data-testid="TopAdStandard"]
 news.yahoo.co.jp###contents > div[class^="sc-"] > article[class^="sc-"] > div[class^="sc-"][style="margin-top:-8px"]:has(> div[id^="yads_"]:only-child)
 lanazione.it##div[style="min-height: 100px; top: 48px;"]
 championat.com##.swiper-wrapper > div.livetable-swiper__item:has(> div.game-of-day)
@@ -959,7 +958,7 @@ yahoo.com###neoLeadAdMobile
 yahoo.com##div[id^="sda-LREC-"] > div[id^="LREC-"]
 aksam.com.tr##div[style="text-align:center;height:310px;"]
 aksam.com.tr##div[style="height:310px;"]
-aksam.com.tr##div[style="height:270px;"]
+aksam.com.tr##div[style="height:140px;"]
 mangapark.io##main > div:has(> div.px-3 > a[href][target="_blank"][q\:key="CY_1"])
 gazo-chat.net##a[href^="https://fam-ad.com/"]
 pixwox##.ah-box
@@ -2886,6 +2885,7 @@ m.quoka.de##.qbanner
 m.quoka.de##.qx_search-result__list-item:not([id])
 m.spox.com###content > .ct > .miksfh > div[style^="min-height:"]
 interia.pl##body .common-ad
+beauty.oricon.co.jp##.kjbox
 beauty.oricon.co.jp##aside[style="text-align:center;margin-top:3px;min-height:100px; margin-bottom: 20px;"]
 oricon.co.jp##.block-recommend-list-kjbox
 oricon.co.jp##.top-inline-banner
@@ -2942,7 +2942,6 @@ m.vesty.co.il##.sticky-adunit
 news18.com##.topAddArticle
 news18.com##div[style^="min-height:260px;"][style*="background:#dbdde3;"]
 news18.com##div[style*="background:#F0F0F0"][style*="height:300px"]
-eromanga-school.com##.ad-top-sp
 businessnamegenerator.com##a[href^="https://domainify.com/"]
 uptodown.com##.ssm_adunit_container
 bolavip.com##.amp-ad-placeholder
@@ -2967,7 +2966,6 @@ app.famitsu.com###gam_sp_post_content_after_2
 r10.net##.container > div > a[target="_blank"] > img
 handelsblatt.com,golem.de##.iqadmarker
 golem.de##.list-ticker > .sp-article
-golem.de##.adsbygoogle
 inside-digital.de##.spo-marker
 inside-digital.de##.content-contentad
 inside-digital.de##.social-share-mobile + #sonder-ueber-content
@@ -3284,8 +3282,6 @@ liderform.com.tr##.advertising-top-container
 m.iguides.ru##.ad-bottom-wrapper
 m.iguides.ru##.after-head
 math-prosto.ru###center > div[style^=" max-width: 800px;width: 100%;"]
-mail.ru##.ads-top__fixed
-mail.ru##.ads-bottom__fixed
 wyniki.sport.pl##.bookmakerContainer
 telegraphindia.com##.adbox626
 telegraphindia.com###ub-sticky-ad-container
@@ -3451,8 +3447,6 @@ sp.uta-net.com###overlay_banner
 uta-net.com,sp.uta-net.com##.ad-area-d
 sp.uta-net.com##.ad-kashi-bottom2
 sp.uta-net.com##div[class^="_taxel_ad_article_"]
-euronews.com##.amp-flying-carpet-text-border
-euronews.com##amp-fx-flying-carpet
 nu.nl##div[data-type="tealium"]
 lenta.ru##div[id^="top-banner"]
 news.mail.ru,pogoda.mail.ru,sportmail.ru##.wrapper_banner
@@ -3698,8 +3692,6 @@ rankedboost.com##.top-mob-div-stick
 russkoe-porno.me##.player-bn
 news18.com##.closestickybtn
 honeysanime.com###footerFloatingMenu
-frankenpost.de,crictracker.com,www-kreiszeitung-de.cdn.ampproject.org,dnaindia.com,koimoi.com,kincir.com,zoomtventertainment.com,www-merkur-de.cdn.ampproject.org,merkur.de,amp-focus-de.cdn.ampproject.org##amp-fx-flying-carpet
-frankenpost.de,crictracker.com,www-kreiszeitung-de.cdn.ampproject.org,dnaindia.com,koimoi.com,zoomtventertainment.com,www-merkur-de.cdn.ampproject.org,merkur.de,amp-focus-de.cdn.ampproject.org##.amp-flying-carpet-text-border
 amp-focus-de.cdn.ampproject.org##div[class="textBlock orange-button-artobj ps-tracking-position ps-trackingposition_OrangerButton"]
 znak.com##.SVKNative-Widget li[data-unit-type="promo"]
 pixnet.net##.in-read-ad
@@ -3998,7 +3990,6 @@ sport1.de##.s1-placement-label
 sport1.de##.amp-ad-align-center
 deichstube.de,da-imnetz.de,fehmarn24.de,tz.de,fr.de,fnp.de##.id-Amp-recommendation
 kino.de##div[data-sdg-ad]
-zeit.de##.advertising
 amp.focus.de##.ct_ampad
 dadroidrd.com##.widget-content > div[id^="fanback"]
 viva.co.id###sticky-bottom
@@ -4857,7 +4848,6 @@ pcgameshardware.de##aside[class$="inArticleTextAd"]
 nydailynews.com##body > #r-main > div.r-yieldmo
 thenewslens.com##body > div#bottombar
 liga.net##body > div[id^="holder_320x"][style]
-m.yelp.com##div[class*="yelp-ad"]
 m.dm5.com##div[class^="adform"]
 m.mangatown.com##div[class^="adv-"]
 eastmoney.com##div[class^="ban"]
@@ -5289,6 +5279,12 @@ contexto.me#$#.top-ad-padding { padding-top: 15px !important; }
 ! !SECTION: Regular rules
 !
 ! m.yelp.com
+m.yelp.com###BottomAdStandard
+m.yelp.com##section[data-testid="BottomAdStandard"]
+m.yelp.com##div[class*="main-content__"] > div > ol > li:has(div[data-traffic-crawl-id="SearchResultBizName"] > h3 > a[href^="/adredir?ad_business_id="])
+m.yelp.com##div[class*="main-content__"] > div > ol > li:has(> div[class*="sponsored-icon__"])
+m.yelp.com##section[data-testid="TopAdStandard"]
+m.yelp.com##div[class*="yelp-ad"]
 m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[class*="sponsored-icon_"])
 m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[class*="sponsored-icon_"]) + li[class]
 m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[data-testid^="themed-ad-"])
