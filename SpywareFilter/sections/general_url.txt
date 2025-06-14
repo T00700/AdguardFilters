@@ -24,6 +24,8 @@
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
 !
+/stattag.js
+/ingest/*ip=*&ver=
 /a/elevar?source_url=
 /exec/front/eclog/*
 /wp-content/plugins/thirstyaffiliates-pro/js/app/tap-gct.js
@@ -105,6 +107,7 @@
 /js/wherego_tracker.js?
 .jp/log.php?
 .jp/static/js/track.js
+/oo/cl.js|$~third-party
 /oo/cl*.js?rd=$~third-party
 /oo/*/lsync.js$~third-party
 /oo/*/l.js|$~third-party
@@ -241,7 +244,7 @@
 /google-analyticator/*$script
 /oa-tracking?
 /jquery.iframetracker.min.js
-/snowplow.*.js$domain=~snowplow.io
+/snowplow.*.js$domain=~snowplow.io|~tv2.no
 /bpsma.js
 /pv?fe=*&elg=
 /shared/js/ga.js|

@@ -11,6 +11,7 @@
 !#######################################################
 ! SECTION: Cookies - General element hiding
 !
+###cookiescript_injected_wrapper
 ##.woodmart-cookies-popup
 ###consent-box-lgpd
 ##.Cookie--bottom
@@ -1677,6 +1678,7 @@
 !
 ! SECTION: Cookies - General URL
 !
+||privacy.condenastdigital.com^$third-party
 ||consent.studio^$third-party
 ||podname.com^
 ||cmpv2.tori.fi^
@@ -1705,7 +1707,6 @@
 ||cdn.ekm.net/ekmps/assets/js/shop-front/euCookieBarV2.js
 ||service-cmp.com^$third-party
 ||consent.nitrocnct.com^
-||ucookie.app^$third-party
 ||collector.appconsent.io^
 ||cdn.cookiesuit.com^$third-party
 /wp-content/plugins/consent-magic-pro/*
@@ -1742,7 +1743,6 @@
 /simple-cookies_for_hu.js
 /mod_consent/js/*$script
 /mod_pescookies/*$script
-||cdn.izinal.com^$third-party
 ||fastcmp.com^$third-party
 /ferra-cookie-consent-widget.min.js
 /ACC_js.php?$script
@@ -1793,7 +1793,6 @@
 ||ccm19.de^$third-party
 ||cookie-widget.ru^$third-party
 ||legalmonster.com^$third-party
-||consentmanager.firststars.io^$third-party
 /cm4all.com.widgets.CookiePolicy/show.
 /emh_cookiebanner/*
 ||up-cookiemon.wavecdn.net^$third-party

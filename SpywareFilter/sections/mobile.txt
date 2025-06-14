@@ -99,12 +99,13 @@ dynamic-report-api.appsflyersdk.com^
 -skadsdkless.appsflyersdk.com^
 -adrevenue.appsflyersdk.com^
 -attr.appsflyersdk.com^
-register.appsflyersdk.com^
-conversions.appsflyersdk.com^
 gcdsdk.appsflyersdk.com^
--launches.appsflyersdk.com^
-cdn-settings.appsflyersdk.com^
 dlsdk.appsflyersdk.com^
+||*cdn-settings.appsflyersdk.com^
+||*launches.appsflyersdk.com^
+||*conversions.appsflyersdk.com^
+||*inapps.appsflyersdk.com^
+||*register.appsflyersdk.com^
 ||adrevenue.appsflyer.com^
 ||api.appsflyer.com^
 ||api2.appsflyer.com^
@@ -112,7 +113,6 @@ dlsdk.appsflyersdk.com^
 ||appsflyer-report.honkaiimpact3.com^
 ||attr.appsflyer.com^
 ||banner.appsflyer.com^
-||cdn-settings.appsflyersdk.com^
 ||cdnappicons.appsflyer.com^
 ||dls2s.appsflyer.com^
 dlsdk.appsflyer.com^
@@ -123,9 +123,7 @@ dlsdk.appsflyer.com^
 ||hq1.appsflyer.com^
 ||impression.appsflyer.com^
 ||inapps.appsflyer.com^
-inapps.appsflyersdk.com^
 ||launches.appsflyer.com^
-||launches.appsflyersdk.com^
 ||onelink.appsflyer.com^
 ||register.appsflyer.com^
 ||sdk-services.appsflyer.com^
@@ -169,6 +167,14 @@ inapps.appsflyersdk.com^
 !
 ! NOTE: Regular rules
 !
+-client-report.honkaiimpact3.com^
+||*-datareceiver.aki-game.net^
+||data-detect.nie.easebar.com^
+||mgbsdk*.matrix.easebar.com^
+||applog*.matrix.easebar.com^
+||tr.acobt.tech^$app=com.apkpure.aegon
+||api.onegg.site^$app=com.apkpure.aegon
+||gdl.youngle.tech^$app=com.apkpure.aegon
 ||urbanairship.com^
 ||hz-telemetry.adobe.io^
 ||smartcard.apps.coloros.com^
@@ -458,7 +464,6 @@ d4?appid*type*
 ||ts.line-apps.com^
 ||log-music-data.line-apps.com^
 ||events-api.soundcloud.com^
-||biddingmax.apse.trk.rixserv.com^
 ||profiler-collector.wshareit.com^
 ||receiver-metis.infeng.site^
 ||dt.beyla.site^
@@ -567,6 +572,7 @@ d4?appid*type*
 ||eventgw.twilio.com^
 ||log.estand.jp^
 ||event-search.jorte.com^
+||sdk-log-upload-os.hoyoverse.com^
 ||ad-log-upload-os.hoyoverse.com^
 ||apm-log-upload-os.hoyoverse.com^
 ||devlog-upload-os.hoyoverse.com^
@@ -651,7 +657,6 @@ d4?appid*type*
 ||mgs123.com^
 ||metrics.sp0n.io^
 ||liveme-sensors-collect2-*.amazonaws.com^
-||online-metrix.imars.cloud^
 ||adtracker.jpchd.veraxen.com^
 ||adtracker.oilpainting.colorbynumber.veraxen.com^
 ||adtracker.mkjigsaw.com^
@@ -734,7 +739,6 @@ d4?appid*type*
 ||analytics.dns-shop.ru^
 ||trk2.pinterest.com^
 ||mobiletelemetry.ebay.com^
-||tracker.departapp.com^
 ||us-tracking.nextdoor.com^
 ||us-events.api.iheart.com^
 ||notes-analytics-events.apple.com^
@@ -744,7 +748,6 @@ d4?appid*type*
 ||v-collector.dp.aws.charter.com^
 ||smetrics.cnn.com^
 ||metrics.claspws.tv^
-||logs.gaaana.com^
 ||sdk-log-inter.youdao.com^
 ||sensors.snappea.com^
 ||analytics.snaptube.app^
@@ -917,8 +920,6 @@ d4?appid*type*
 ||analytics.mobile.yandex.net^
 ||analytics.query.yahoo.com^
 ||andmlb.kshwtj.com^
-||api-analytics-bootstrap.metaps.com^
-||api-analytics.metaps.com^
 ||api.amplitude.com^
 ||api.analytics.omgpop.com^
 ||api.apptentive.com^
@@ -959,7 +960,6 @@ d4?appid*type*
 ||invenio_tracking_*.sgnapps.com^
 ||krxd.net^
 ||lepodownload.mediatek.com^
-||lhzbdvm.com^
 ||log.droid4x.cn^
 ||log.umsns.com^
 ||lp4.io^
