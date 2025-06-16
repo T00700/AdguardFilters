@@ -300,8 +300,6 @@ omocoro.jp#@#.fixed-social
 tecstaff.jp#@#.social-widget
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118362
 filmaffinity.com#@##share-container
-! https://github.com/AdguardTeam/AdguardFilters/issues/118119
-siberkalem.com#@#div[class^="widget-social"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117044
 gendai.media#@#amp-social-share
 @@||cdn.ampproject.org/v0/amp-social-share-0.1.js$domain=gendai.media
@@ -414,8 +412,6 @@ juejin.cn#@#.share-btn
 mostwantedmodels.com#@#.socialite
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87149
 embed.indiatoday.in#@#.page-share
-! https://github.com/AdguardTeam/AdguardFilters/issues/86847
-theprintcraft.in#@#.social-wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/86890
 quotemaster.org#@#.img-share
 ! unbreak a print button

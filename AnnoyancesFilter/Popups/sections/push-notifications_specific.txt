@@ -9,7 +9,7 @@
 /firebase-messaging-compat.js$domain=hellobacsi.com
 /firebase-messageing.bundle.js$domain=tenorshare.jp
 /firebase.js$domain=tmailor.com|super.ru|gazeta.uz|thevoicemag.ru|novayagazeta.eu|zab.ru|nike.com.br|novayagazeta.ru|comments.ua|kinosimka.net|ilan365.net|cnbcindonesia.com|haberzamani.net|oxy.cloud|allbasketball.org|auslogics.com|kartalyuvasi.com.tr|cnnindonesia.com|fbc.ua|astv.ru|pln-pskov.ru|aylink.co|detik.com|sunmag.me|epoznan.pl|fotor.com|ridus.ru|sport-express.ru|easeus.com|russiatoday.ru
-/firebase-messaging.js$domain=euautodily.cz|euautoteile.de|euautoteile.at|euautoteile.ch|euautopezzi.it|euautopieces.fr|euautoczesci.pl|euantallaktika.gr|euautorecambios.es|euautopecas.pt|euautoonderdelen.be|euautodele.dk|eualkatresz.hu|euvaraosat.fi|euspares.co.uk|euavtodeli.si|euroautodiely.sk|euavtochasti.bg|euautodalys.lt|euautopiese.ro|euautoonderdelen.nl|euautodeler.co.no|euautodalas.lv|euautoosad.ee|eurobildelar.se|worldstar.com|tv1.nontondrama.click|tmailor.com|super.ru|gazeta.uz|thevoicemag.ru|novayagazeta.eu|zab.ru|nike.com.br|webursa.com|bfm.ru|theswagsports.com|focus.ua|ukranews.com|comments.ua|coub.com|porno90.me|cnnamador.com|giallozafferano.it|fptplay.vn|jooble.org|mobile01.com|myinstants.com|pdalife.ru|rg.ru|m.iguides.ru|donanimhaber.com|profile.ru|womanhit.ru|news.noteru.com|narodna-pravda.ua|newstm.in|sabah.com.tr|dreamstime.com|popbee.com|avtovzglyad.ru|allbasketball.org|tw.news.yahoo.com|takvim.com.tr|ria.ru|pars.host|calculator-online.net|operanewsapp.com|ahaber.com.tr|tamindir.com|concursosnobrasil.com.br|kompas.com|news.ebc.net.tw|recyclingtoday.com|homedecoratione.com|khersondaily.com|mirtesen.ru|belsat.eu|op.gg|novayagazeta.ru|pocket-lint.com|turunculevye.com|bloomberght.com|stardima.com|aksam.com.tr|portamur.ru|fishki.net|ranking.goo.ne.jp|ohmymag.com|semnasem.org|bluradio.com|carwale.com|finanznachrichten.de|home.kingsoft.jp|sputnik.kg|sportskeeda.com|notizie.it|diarioregistrado.com|colombia.com|penangpropertytalk.com|m24.ru|yenisafak.com|mirf.ru|sozcu.com.tr|hindustantimes.com|elcordillerano.com.ar|sport-express.ru|mentoday.ru|es.memedroid.com|lublin112.pl|iguides.ru|lk21official.mom|news.tvbs.com.tw|lsm.lv|paraphraser.io|mynet.com|surabaya.tribunnews.com|birgun.net|gunes.com|b92.net|eldestapeweb.com|puma.com
+/firebase-messaging.js$domain=euautodily.cz|euautoteile.de|euautoteile.at|euautoteile.ch|euautopezzi.it|euautopieces.fr|euautoczesci.pl|euantallaktika.gr|euautorecambios.es|euautopecas.pt|euautoonderdelen.be|euautodele.dk|eualkatresz.hu|euvaraosat.fi|euspares.co.uk|euavtodeli.si|euroautodiely.sk|euavtochasti.bg|euautodalys.lt|euautopiese.ro|euautoonderdelen.nl|euautodeler.co.no|euautodalas.lv|euautoosad.ee|eurobildelar.se|worldstar.com|tv1.nontondrama.click|tmailor.com|super.ru|gazeta.uz|thevoicemag.ru|novayagazeta.eu|zab.ru|nike.com.br|webursa.com|bfm.ru|theswagsports.com|focus.ua|ukranews.com|comments.ua|coub.com|cnnamador.com|giallozafferano.it|fptplay.vn|jooble.org|mobile01.com|myinstants.com|pdalife.ru|rg.ru|m.iguides.ru|donanimhaber.com|profile.ru|womanhit.ru|news.noteru.com|newstm.in|sabah.com.tr|dreamstime.com|popbee.com|avtovzglyad.ru|allbasketball.org|tw.news.yahoo.com|takvim.com.tr|ria.ru|pars.host|calculator-online.net|operanewsapp.com|ahaber.com.tr|tamindir.com|concursosnobrasil.com.br|kompas.com|news.ebc.net.tw|recyclingtoday.com|homedecoratione.com|khersondaily.com|mirtesen.ru|belsat.eu|op.gg|novayagazeta.ru|pocket-lint.com|turunculevye.com|bloomberght.com|stardima.com|aksam.com.tr|portamur.ru|fishki.net|ranking.goo.ne.jp|ohmymag.com|semnasem.org|bluradio.com|carwale.com|finanznachrichten.de|home.kingsoft.jp|sputnik.kg|sportskeeda.com|notizie.it|diarioregistrado.com|colombia.com|penangpropertytalk.com|m24.ru|yenisafak.com|mirf.ru|sozcu.com.tr|hindustantimes.com|elcordillerano.com.ar|sport-express.ru|mentoday.ru|es.memedroid.com|lublin112.pl|iguides.ru|lk21official.mom|news.tvbs.com.tw|lsm.lv|paraphraser.io|mynet.com|surabaya.tribunnews.com|birgun.net|gunes.com|b92.net|eldestapeweb.com|puma.com
 !
 ! Disabling of push-notifications
 !
@@ -23,6 +23,8 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+||cdn.gazetepencere.com/assets/bundle/webpush.js
+||uol.com.br/mywebpush.js
 buienradar.nl#$#body { overflow: auto !important; }
 buienradar.nl#$#div[class^="onboard-"] { display: none !important; }
 ||sueddeutsche.de/szde-assets/webpush/
@@ -258,7 +260,6 @@ kurzy.cz###notifpopup
 ||kurzy.cz/push/push.js
 ||letemsvetemapplem.eu/wp-content/plugins/tfnotifier-wp/swloader.php
 ||cdn.files.smcloud.net/t/webpush-launcher.js
-mildom.com#%#//scriptlet('set-local-storage-item', 'has_popout_notification_dialog_recently', '1')
 jc.ne10.uol.com.br###rdmapps-webpush-main
 elconsolto.com,masrawy.com###izooto-optin
 androidmakale.com##.widget_onesignalwidget
@@ -289,7 +290,6 @@ voici.fr,gala.fr##.showPush
 voici.fr,gala.fr##.showPush + div.genericModal-overlay
 lifebursa.com##body div#notificationPopup
 einvestidor.estadao.com.br###push-notification-prompt-container
-girafa.com.br#%#//scriptlet('set-cookie', 'saiupagina', 'true')
 sloanreview.mit.edu##.news-signup
 manutd.com##div[data-impression^="Notification_Prompt"]
 ||image.sendsay.ru/app/js/forms/forms.min.js
@@ -350,18 +350,14 @@ buhonline.ru###modals-react-app
 esputnik.com##.webPushSubscriptionPreview--component
 forum.donanimhaber.com##.push-notification-content
 forum.donanimhaber.com###portalNotificationContainer
-||cdn.9to5terminal.com/push.js
 ||tinypass.com^$domain=ynet.co.il
 pulse.mail.ru###suggestion-container
 tvn24.pl##iframe.__ipPerunElement
 trashbox.ru###div_bottom_subscribe_placeholder
 ||push.1plus1.ua/js/app.js
 caracoltv.com,shock.co##.PushSubscription-content
-nevnov.ru##.pushSubscribe
 ||maximizly.*/sources/webpush/production/js/maximizly-push.js
 ||cosplay-porn.me/swps.js
-animefire.net###page-mask
-animefire.net###sub_modal
 flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com###notifications-alert-wrapper
 ||sport.ru/app/web/push.js
 ||cdn.lentainform.com/js/push/subscribe.js
@@ -435,7 +431,6 @@ storia.me,tvbs.com.tw##.web-push
 ||uol.com.br/webalert-notification*.js
 ||static.folha.uol.com.br/folha/js/push/
 ||karsolay.com/js/fcm-web-push.js
-||musictor.org/didgesdle/ssw.js
 kizi.com###kizi-popover-container
 dailymail.co.uk##div[class^="widget-"][style^="left:"]
 ||hulkprod.anm.co.uk/api/web-push-notification/
@@ -496,7 +491,6 @@ life.ru##header ~ div[style^="pointer-events:"] + div[style*="animation-timing-f
 ||kitapyurdu.com/catalog/view/javascript/firebase/fcm.js
 comments.ua##.push_inf
 ||faselhd.live/sw.js
-||pornomoll.net/sw.js
 ||dailymail.co.uk/api/web-push-notification/
 ||vesti.ru/js/push/
 /wp-content/plugins/dfm-notifications/*$domain=mercurynews.com|marinij.com
@@ -538,7 +532,6 @@ woman.rambler.ru##.popup.j-mail-alert
 fox17online.com###desktop-notifications
 ||s.aimg.sk/zive_symfony/build/push-notification.*.js
 ||rankomat.pl/kalkulator/client_app/assets/push-notifications/push-notifications.script.js
-||seosence.com/sw.js
 ||codziennypoznan.pl/webnotf.js
 ceneo.pl###notifications-toast.js_popup_shown
 elnuevodia.com###push-popup
@@ -663,7 +656,7 @@ indiatimes.com###pushSec
 24tv.ua###pushSubscribeModal
 ntv.ru###push_alert
 qrz.ru###qrzpush-prompt-widget
-bandirmasehir.com,gunlukbakis.com,karabukgundem.com,silopigazetesi.com.tr,yenibizimadana.com,gazetecorlu.com,gundogmusgazetesi.com,edeajans.com.tr,bitlisdogruhaber.com,tavsanlihaber.com.tr,hurdusun.com,medyaayvalik.com,brtv.com.tr,kanalurfa.com,parlamentohaber.com,amasyagazetesi.com,ukraynahayat.com##.alerttt
+bandirmasehir.com,karabukgundem.com,silopigazetesi.com.tr,yenibizimadana.com,gazetecorlu.com,gundogmusgazetesi.com,edeajans.com.tr,bitlisdogruhaber.com,tavsanlihaber.com.tr,hurdusun.com,medyaayvalik.com,brtv.com.tr,kanalurfa.com,parlamentohaber.com,amasyagazetesi.com,ukraynahayat.com##.alerttt
 trinixy.ru##.b-notification-push
 turkuvazradyolar.com,anews.com.tr,yeniasir.com.tr,aspor.com.tr,fikriyat.com,ahaber.com.tr,sabah.com.tr##.notBar
 haberturk.com##.notifacition-area

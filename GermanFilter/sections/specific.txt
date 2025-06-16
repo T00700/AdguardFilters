@@ -75,9 +75,6 @@ chip.de##.js_download_button > a[href^="https://x.chip.de/intern/dl/?url="][href
 ! https://github.com/AdguardTeam/AdguardFilters/issues/44069
 !+ PLATFORM(ext_edge, ext_opera, ios, ext_android_cb, ext_safari, ext_ublock)
 gifhorner-rundschau.de##.ad--marker-inner
-! https://github.com/AdguardTeam/AdguardFilters/issues/38468
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_safari)
-med1.de##div[id*="div-gpt-ad-"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34408
 !+ PLATFORM(ios, ext_safari)
 wetter.de##.ligatus-content-forecast-reco-container
@@ -157,6 +154,8 @@ it-administrator.de,formel1.de,krautundrueben.de,motorsport-total.com,traktorpoo
 !
 ! NOTE: Specific rules
 !
+play3.de##.container:has(> .row:only-child > .ad:only-child)
+play3.de##div[class^="col-"]:has(> .play3-outbrain:only-child)
 ga.de###park-main > section[data-cy="module"]:has(> header[data-cy="section-header-raw"] > div span.is-ad)
 ga.de###park-main > section[data-cy="section"]:has(> div[data-cy="section-weekli-header"])
 ga.de##div[data-cy="content-grid-col-1"]:has(aside[data-cy="portal"] > div[id^="ir_rpd"])
@@ -1759,7 +1758,7 @@ wetter.com###taboola-main-container
 radfahren.de##.wide-banner
 radfahren.de##.in-article-ad-wrapper
 xnxx-porno.com##div[data-ga_category="WhatsApp Widget"]
-techgeek360.com,ekiwi-blog.de##.widget_aawp_widget_bestseller
+ekiwi-blog.de##.widget_aawp_widget_bestseller
 tkp.at,ekiwi-blog.de##.aawp
 praxisvita.de##.aside > .box > a[href$="&utm_campaign=PraxisVita_Bild_Textanzeige"]
 gut-erklaert.de##.noContentBannerWb
@@ -1832,7 +1831,6 @@ blick.ch##aside[class*="placement-"]
 my.mail.de###mdeSideProp
 giga.de##div[data-item="ads-container"]
 pcgames.de##.article_text .ratgeberWrapper
-||static.native-commerce.com^$domain=dslr-forum.de
 jetzt.de,parkerlebnis.de,drwindows.de##div[class^="ad_"]
 t-online.de###Tcontboxi > .Tgbox--blau
 welt.de##section[data-external-stage-name="special_home"]
@@ -1945,7 +1943,6 @@ hardwareluxx.de##.js-replyNewMessageContainer > article.message--post:not([data-
 amazon.de##div[data-cel-widget*="desktop-dp-sims_SponsoredProductsSims"]
 amazon.de##div[class*="thirdPartySponsorLink"]
 bzbasel.ch,limmattalerzeitung.ch,aargauerzeitung.ch##.ad.teaser
-streamkiste.tv###stream-link > a[onclick^="window.location.href=window.atob"][target="_blank"]
 ||computerbase.de/js/ads.*.js
 ||computerbase.de/service-worker.js
 spiegel.de##div[data-component="AffiliateBox"]
@@ -2088,7 +2085,6 @@ op-online.de##div[data-id-container-ct='{"containerId":"422013"}']
 gmx.net,web.de##section[data-adservice-slot]
 pcgames.de##div.topFrameEddie
 augsburger-allgemeine.de##.p-ad-poster
-tatort.tube###aside > .bnr-container.dasContainer
 winfuture.de##.topnews > div[style="background:#d5d5d5;border:0 solid #d5d5d5; border-width:5px 0;min-height:270px"]
 travelbook.de##.affilitron-m-wrapper
 n-tv.de##.sparwelt
@@ -2362,7 +2358,6 @@ rundschau-online.de,berliner-zeitung.de,express.de,mopo.de,rheinische-anzeigenbl
 rheinische-anzeigenblaetter.de##a.trackedTeaser[data-teaser-view="300x620"]
 lr-online.de##.module-list > info[style^="font-size:10px; color:#aaa"]
 lr-online.de##.module-list a.adn_layer_itemholder
-||tools.lr-port.de/ablage/*_rectangle$image
 ||fussballdaten.de/img/sportwetten^$important
 macwelt.de###sidebar > #ad_mpu + .box
 chip.de##a[title*="(Gesponsert)"]
@@ -2769,7 +2764,7 @@ handelsblatt.com##div[data-teasertracking*="Advertisement"]
 stylebook.de,travelbook.de,techbook.de,fitbook.de##.ads__container
 techbook.de,myhomebook.de,petbook.de,fitbook.de##.footer-bar--advertorial-group
 travelbook.de,fitbook.de##a[href*=".smartadserver.com/"]
-sozialversicherung-kompetent.de,deutsche-porn.com,techbook.de,lr-online.de,stylebook.de,fitbook.de,travelbook.de##.ads
+sozialversicherung-kompetent.de,techbook.de,lr-online.de,stylebook.de,fitbook.de,travelbook.de##.ads
 autobild.de,travelbook.de##a[href^="https://secure.adnxs.com"]
 travelbook.de##section.pb--one-pano
 travelbook.de##section.pb--two-lbig
@@ -3320,7 +3315,7 @@ win-8-forum.net###posts > li.postbit:not([id])
 abnehmen.com###posts > li.postbitlegacy.postcontainer.old:not([id^="post_"])
 win-10-forum.de###posts > li.postcontainer.nointelliTXT:not([id^="post_"])
 seatforum.de###posts > li:not([id]).postcontainer
-gta-5-forum.de,computerbase.de,tuning-fans.de,usp-forum.de###posts > li[id^="yui-gen"]
+gta-5-forum.de,computerbase.de,usp-forum.de###posts > li[id^="yui-gen"]
 golem.de###pricehits
 hilfdirselbst.ch###r230
 hilfdirselbst.ch###r231
@@ -3329,7 +3324,6 @@ pcgames.de###saturn_teaser
 heilpraxisnet.de###secondary
 edmontonjournal.com###section_2 + .pm_layouts_news_ticker
 xbox-passion.de###sidebar > #rectangle
-med1.de###sl > #w_m
 manager-magazin.de,spiegel.de###spRecommendations
 rollingstone.de,idea.de,3c.gmx.net,niederlausitz-aktuell.de,tonight.de,win-8-forum.net###superbanner
 computerbild.de###teaser_right > div.labeling
@@ -3514,7 +3508,7 @@ handelsblatt.com##.vhb-serviceoffer
 sixx.de##.view-adsbygoogle
 spiele-umsonst.de##.viewmain > #pictureperfect
 chip.de##.vjs-relatedteaser
-wohnwagen-forum.de,med1.de,extrem-bodybuilding.de,clashroyaleforum.de,clashofclansforum.de,forum.pocketnavigation.de,pff.de,dogforum.de##.wcfAdLocation
+wohnwagen-forum.de,extrem-bodybuilding.de,clashroyaleforum.de,clashofclansforum.de,forum.pocketnavigation.de,pff.de,dogforum.de##.wcfAdLocation
 gaeubote.de##.werbung_oben_rechts
 rheinneckarblog.de##.widefat
 wieistmeineip.ch,wieistmeineip.at,wieistmeineip.de##.wimip-googleads-container
@@ -3613,7 +3607,6 @@ chip.de##div[id^="contentad-"] + .mt-xs
 spiegel.de,abnehmen.com##div[id^="crt-"]
 bmw-syndikat.de##div[id^="div-dfp-"]
 deskmodder.de##div[id^="google"][class^="post"]
-med1.de##div[id^="imAd_"]
 sueddeutsche.de##div[id^="iqad"]
 meinestadt.de##div[id^="ms_ad_wrapper_"]
 meinestadt.de##div[id^="ms_adsense"]
@@ -3717,7 +3710,6 @@ tz.de##div[class*="id-Container--promo"]
 welt.de##div[class^="bitextanz"]
 spiegel.de##div#spOasTop + div[class] > div[id] > img
 spiegel.de##div#wrapper > div#spColumnAd + div[id][class] > img
-dvdschnaeppchen.de###myatu_bgm_img_group
 arcor.de##a[href$="https://zuhauseplus.vodafone.de/dsl/zuhause-m.html"]
 ||pcgames.de/tsimg/432132/gamesbusiness_promobox_300x150px.gif
 sport.de##.related > div[style="width:300px;height:510px;"]

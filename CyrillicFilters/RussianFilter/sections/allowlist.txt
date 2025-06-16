@@ -4,6 +4,10 @@
 ! Good: example.org#@#.ad
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/207386
+! TODO: remove it when the issue is fixed - https://github.com/AdguardTeam/DisableAMP/issues/119
+! aglint-disable-next-line invalid-modifiers
+@@||translated.turbopages.org^$extension="Disable AMP"
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204905
 @@||miradres.com/lat/$domain=dexter-serial.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204057
@@ -266,8 +270,6 @@ porttest.net#@#.banner_center
 @@||i.servimg.com/u/*/banner10.gif$domain=scandal-heaven.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/58121
 @@||zviazda.by/sites/default/files/styles/300x250/public/
-! https://github.com/AdguardTeam/AdguardFilters/issues/58714
-@@||9800000.ru/js/banners.js
 ! liga.net - fixing comments
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=liga.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57716
@@ -307,9 +309,6 @@ vashadvokat-msk.ru#@#.adv_link
 ! vokrug.tv - fixed news feed
 @@||yastatic.net/pcode/adfox/header-bidding.js$domain=vokrug.tv
 @@||yastatic.net/pcode/adfox/loader.js$domain=vokrug.tv
-! https://github.com/AdguardTeam/AdguardFilters/issues/49119
-@@||mdyhb.com/static/player.js$domain=porno-film.site
-@@||mdyhb.com/*/lonnlo8bw/*/*?p=$script,domain=porno-film.site
 ! https://github.com/AdguardTeam/AdguardFilters/issues/47980
 @@||comvisionsys.ru/advertising
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48023
@@ -485,8 +484,6 @@ tomsk.ru#@#.banner-mid
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/4816
 @@||googleadservices.com/pagead/conversion_async.js$domain=knowledgecity.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/63802
-@@||cdn.quiz-and-facts.com/ad/initAd.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/4693
 @@||ad.mail.ru/static/admanhtml/rbadman-html5.min.js$domain=my.mail.ru
 @@||ad.mail.ru/vp/*?content_id=*&duration=*&mm_catid=$domain=my.mail.ru
@@ -517,8 +514,6 @@ iloveenglish.ru#@#.banner-top
 devid.info#@##top_banner
 ! https://forum.adguard.com/index.php?threads/3-missed-ads.15870/
 4bir.com#@#.advertisement
-! https://github.com/AdguardTeam/AdguardFilters/issues/3655
-@@||cityadspix.com^$domain=systemrtb.com,popup
 ! https://forum.adguard.com/index.php?threads/16825/
 @@||gazprom-neft.ru/images/tizers/
 ! https://forum.adguard.com/index.php?threads/16787/
@@ -539,9 +534,6 @@ devid.info#@##top_banner
 @@||advertising.my1.ru^$domain=advertising.my1.ru
 ! https://forum.adguard.com/index.php?threads/14661/
 @@||smofast.com/refer.php$document
-! https://forum.adguard.com/index.php?threads/14109/
-! mdm.ru is broken by Adguard injections
-@@||mdm.ru^$elemhide,jsinject
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3114
 weebly.com#@##banner-wrap
 ! liveam.tv - broken player
@@ -594,12 +586,8 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#@#.aff
 direct.yandex.ru#@#.b-direct
 ! yandex.ru - broken campaign editor
 @@||direct.yandex.ru$document,~third-party
-!!!
 ! http://forum.adguard.com/showthread.php?7065
 @@||video.videonow.ru^$domain=echo.msk.ru
-! https://github.com/AdguardTeam/ExperimentalFilter/issues/814
-@@||video.videonow.ru^$domain=api.cybergame.tv
-!!!
 ! https://forum.adguard.com/index.php?threads/11148/
 @@||an.yandex.ru/system/context.js$domain=music.yandex.ru|radio.yandex.ru
 @@||an.yandex.ru/resource/context_static_r*.js$domain=music.yandex.ru|radio.yandex.ru
