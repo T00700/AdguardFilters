@@ -1234,6 +1234,8 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/225923
+@@||static.doubleclick.net/instream/ad_status.js$xmlhttprequest,domain=softinfo.ro
 ! https://github.com/AdguardTeam/AdguardFilters/issues/225080
 twitchnosub.com$$script:contains(accessGate)
 twitchnosub.com#%#//scriptlet('remove-node-text', 'script', 'accessGate')
