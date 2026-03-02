@@ -200,7 +200,7 @@ chirashiplus.jp##.contents > a[href="https://app.chirashiplus.jp/"]
 adidas.ua##.header__static-container ~ .sap
 poshmark.com##.btn--open-in-app
 hotokami.jp##a[onclick*="app"]
-flipp.com##.download-app-banner
+zarahome.com,flipp.com##.download-app-banner
 coemee.com#%#//scriptlet('trusted-set-local-storage-item', 'pwa-install-prompt-dismissed', '2764250584116')
 vkusnoitochka.ru##a[href="https://trk.mail.ru/c/jpair2"]
 noz.de#$#.appB_page_box { display: none !important; }
