@@ -826,7 +826,7 @@ posthog.com#%#//scriptlet('trusted-set-local-storage-item', 'cookie_consent', 'a
 buyandship.com.sg##.bs-cookie-consent
 crimeradar.us##main > div.fixed.left-0.top-0
 unisel.co.jp##.js-footer_policy
-sparkasse-rhein-nahe.de,foerde-sparkasse.de,erzgebirgssparkasse.de#%#//scriptlet('trusted-click-element', '.if6_eprivacy a[title="Ablehnen"]','','1000')
+sparkasse-gelsenkirchen.de,sparkasse-rhein-nahe.de,foerde-sparkasse.de,erzgebirgssparkasse.de#%#//scriptlet('trusted-click-element', '.if6_eprivacy a[title="Ablehnen"]','','1000')
 blogway.pro#%#//scriptlet('set-local-storage-item', 'cookies_accept', 'true')
 sexyrealsexdolls.com##.gdpr__holder
 regard.ru##div[class^="CookieBannerPopover"]
