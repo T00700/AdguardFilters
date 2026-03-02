@@ -18,6 +18,7 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+tiklagelsin.com##.flex > div.items-center:has(> div > div > a[data-adjust-download="playstore"])
 altinyildizclassics.com##.app-smart-banner
 dsdamat.com##.hide-on-app
 coinglass.com##.MuiBox-root.appd
