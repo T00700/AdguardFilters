@@ -1549,7 +1549,7 @@ tarczynskiarenawroclaw.pl,blog.bizvibe.com#@##cookie-law-info-bar
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175701
 @@||cdn-ukwest.onetrust.com^$domain=super6.skysports.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175560
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli)
 @@||app.eu.usercentrics.eu^$domain=loewenbraeukeller.com
 @@||sdp.eu.usercentrics.eu^$domain=loewenbraeukeller.com
 @@||config.eu.usercentrics.eu^$domain=loewenbraeukeller.com
@@ -1574,7 +1574,7 @@ rtl.nl#@##onetrust-consent-sdk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174435
 avplanet.hu#@#.cookie-alert
 ! https://github.com/AdguardTeam/AdguardFilters/issues/174692
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_chromium && !adguard_ext_opera)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli && !adguard_ext_chromium && !adguard_ext_opera)
 @@||sdk.privacy-center.org^$domain=le10sport.com
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168446
@@ -2458,7 +2458,7 @@ kultura.com.pl#@##cookieModal
 ! https://github.com/List-KR/List-KR/issues/656 - The plus buttons placing next to country name cannot be clicked.
 @@||cdn.oddschecker.com/cookie-policy-banner/bundle/cookie-policy-banner-$script
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146471
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_chromium)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli && !adguard_ext_chromium)
 @@||sdk.privacy-center.org^$domain=ozap.com
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146761
@@ -3066,7 +3066,7 @@ milwaukeetool.eu#@##onetrust-consent-sdk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119755
 deineapotheke.at#@#.cookie-banner:not(body):not(html)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119739
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_chromium)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli && !adguard_ext_chromium)
 developer.confluent.io#@##onetrust-consent-sdk
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=developer.confluent.io
 !#endif

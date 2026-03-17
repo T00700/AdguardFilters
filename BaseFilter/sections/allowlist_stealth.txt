@@ -1344,7 +1344,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158477
 @@||akamaized.net/*.m4s$stealth=referrer,domain=bilibili.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158664
-!#if (adguard_app_windows || adguard_app_android || adguard_app_mac)
+!#if (adguard_app_windows || adguard_app_mac || adguard_app_android || adguard_app_cli)
 @@||moeni.net^$stealth=webrtc
 !#endif
 @@||api.moeni.net^$xmlhttprequest,stealth=referrer|ip
@@ -3109,7 +3109,7 @@
 !
 ! SECTION: Protect against DPI problems
 ! https://github.com/AdguardTeam/CoreLibs/issues/1645
-!#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
+!#if (adguard_app_windows || adguard_app_mac || adguard_app_android || adguard_app_cli)
 !
 @@||sbm.org.tr^$stealth=dpi
 @@||centraljust.gov.ua^$stealth=dpi

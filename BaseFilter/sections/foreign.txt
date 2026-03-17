@@ -1829,13 +1829,13 @@ touchit.sk#$#.main-wrap { margin-top: 80px !important; }
 iprima.cz##.videoplayer-overlay
 iprima.cz##.vjs-a2doverlay
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164018
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli)
 iprima.cz#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'kununu_mul')
 $cookie=adb.key,domain=iprima.cz
 $cookie=adb,domain=iprima.cz
 !#endif
 !
-!#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
+!#if (adguard_app_windows || adguard_app_mac || adguard_app_android || adguard_app_cli)
 iprima.cz$$script[wildcard="*getOwnPropertyDescriptor*contentWindow*ABP*"][min-length="5000"][max-length="8000"]
 $cookie=/^adb\$|adb\.key/,domain=iprima.cz
 !#endif
@@ -3106,7 +3106,7 @@ sportday.gr##div[data-ocm-ad]
 ! Video player from connatix.com is blocked by a rule from third-party filter
 ! The problem is that apps do not detect source of the request and
 ! rules below fix that issue
-!#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
+!#if (adguard_app_windows || adguard_app_mac || adguard_app_android || adguard_app_cli)
 ||sport24.gr^$replace=/((.)\.src='javascript:false';)/\$1\$2.srcdoc='';/,document
 ||sport-fm.gr^$replace=/((.)\.src='javascript:false';)/\$1\$2.srcdoc='';/,document
 !#endif
@@ -9769,7 +9769,7 @@ skmedix.pl#$#body .textads.adsbox { display: block !important; height: 2px !impo
 skmedix.pl#%#(()=>{document.addEventListener('DOMContentLoaded',()=>{var a=document.querySelector("body");document.location.hostname.includes("skmedix.pl")&&a&&a.insertAdjacentHTML("beforeend",'<ins class="adsbygoogle" data-ad-status="filled"><div id="aswift_" style="position: absolute !important; left: -3000px !important;"><iframe id="aswift_"></iframe></div></ins><iframe src="/aframe"></iframe>')})})();
 skmedix.pl#%#//scriptlet('trusted-set-constant', 'skl', '"🐱"')
 @@||skmedix.pl/*/*.js$~third-party
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_chromium)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli && !adguard_ext_chromium)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=skmedix.pl
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl_with_ama_fy2019.js$domain=skmedix.pl
 !#endif
@@ -10097,7 +10097,7 @@ waw4free.pl#?#.zobacz-box-text:contains(/^reklama$/)
 waw4free.pl$$script[tag-content="Wykryliśmy adblocka"]
 waw4free.pl$$style[tag-content="document.documentElement.scrollTop?document.documentElement.scrollTop:document"]
 waw4free.pl$$script[tag-content="adbinfo"]
-!#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
+!#if (adguard_app_windows || adguard_app_mac || adguard_app_android || adguard_app_cli)
 waw4free.pl#%#//scriptlet('prevent-addEventListener', 'load', 'nextFunction')
 waw4free.pl#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
 !#endif
@@ -10123,7 +10123,7 @@ jarock.pl##.old-news > .grid > .news-item.grid-item.a-d
 jarock.pl##.old-news > .grid > .news-item.grid-item.aserver_slot
 ! https://github.com/AdguardTeam/AdguardFilters/issues/214937
 ! TODO: remove rules when CoreLibs issue is fixed - https://github.com/AdguardTeam/CoreLibs/issues/2016
-!#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
+!#if (adguard_app_windows || adguard_app_mac || adguard_app_android || adguard_app_cli)
 @@||trojmiasto.pl^$elemhide,jsinject,content,extension,~script,~stylesheet
 ||x-trojmiasto.pl/combo/f=/_style/$replace=/(.\$)/\$1.banner-maxia\,.banner-a\,.banner-m\,.banner-mr\,a[target="_blank"][href*=".trojmiasto.pl\/"] > img[width][height][src*=".trojmiasto.pl\/"]\,[data-revive-zoneid]{ display: none !important; }/,stylesheet
 !#endif
@@ -10791,7 +10791,7 @@ so-magazyn.pl,kafeteria.pl,informacje.wp.pl,wplatform.media,pcformat.pl,staszown
 ||googletagmanager.com/gtm.js$script,redirect=noopjs,domain=~pilot.wp.pl|wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|autocentrum.pl
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,important,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl
 ! TODO: Add "!adguard_ext_firefox" to directive below when issue with $replace rules will be fixed - https://github.com/AdguardTeam/AdguardBrowserExtension/issues/2018
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli)
 ! Twoje okazje
 autocentrum.pl##body > div[class]:empty
 poczta.wp.pl##body > div > div[style^="height:"]:has(> a[href]:first-child ~ img[src^="https://v.wpimg.pl/"])
@@ -10841,7 +10841,7 @@ autocentrum.pl,parenting.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,komorkomania
 wp.pl#@#body > div:nth-of-type(1)[style^="display: block;"]:not(#page)
 !#endif
 !
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox && !adguard_ext_safari && !adguard_app_ios)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli && !adguard_ext_firefox && !adguard_ext_safari && !adguard_app_ios)
 @@||autocentrum.pl^$generichide
 @@||videostar.pl^$generichide
 @@||parenting.pl^$generichide
@@ -10857,7 +10857,7 @@ wp.pl#@#body > div:nth-of-type(1)[style^="display: block;"]:not(#page)
 @@||wp.pl^$generichide
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/37699
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox && !ext_ublock)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli && !adguard_ext_firefox && !ext_ublock)
 dobreprogramy.pl#$#.nav-tabs-content > #new-tools.block-content:not(.active) { display: none; }
 dobreprogramy.pl#$#.nav-tabs-content > #popular-tools.block-content:not(.active) { display: none; }
 dobreprogramy.pl#$#.nav-tabs-content > #new-stable.block-content:not(.active) { display: none; }
@@ -11202,7 +11202,7 @@ samnaprawiam.com##.adsbygoogle
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/20305
 skript.pl#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "adblocka")
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_chromium)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli && !adguard_ext_chromium)
 skript.pl#$#.adsbygoogle { height:10px!important; }
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=skript.pl
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=skript.pl
@@ -11499,7 +11499,7 @@ open.fm#%#//scriptlet('set-constant', 'Object.prototype.adv', 'false')
 ||ofmweb.wpcdn.pl/dist/*/static/chunks/*.js$replace=/adv:!.\,/adv:!1\,/,domain=open.fm
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75066
 ||amazon-adsystem.com/aax2/apstag.js$script,redirect=amazon-apstag,domain=wp.pl|money.pl|open.fm
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_firefox)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli && !adguard_ext_firefox)
 sportowefakty.wp.pl#?#div:not([class]):not([id]):has(> div[class] > div[class*=" "] > div:not([class]):not([id]):contains(/^REKLAMA$/))
 sportowefakty.wp.pl#?#.teasers > div[class=" display"]:has(> div[class] > div[class] > div:not([class]):not([id]) > div:not([class]):not([id]):contains(/^REKLAMA$/))
 !#endif
@@ -11646,7 +11646,7 @@ filmweb.pl#@#body .ws__wrapper
 !+ NOT_OPTIMIZED
 filmweb.pl#$#.ws__wrapper { visibility: hidden !important; }
 filmweb.pl#$#.lightboxNEW:not(.fullscreen)[style] { top: 0 !important; }
-!#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
+!#if (adguard_app_windows || adguard_app_mac || adguard_app_android || adguard_app_cli)
 ||go.eu.bbelements.com/please/code|$domain=filmweb.pl,redirect=nooptext,important
 ||cz.search.etargetnet.com/|$domain=filmweb.pl,redirect=nooptext,important
 ||sk.adocean.pl/files/js/ado.js|$domain=filmweb.pl,redirect=nooptext,important

@@ -221,7 +221,7 @@ mediasetinfinity.es#%#//scriptlet('prevent-element-src-loading', 'script', 'stat
 ! https://github.com/uBlockOrigin/uAssets/issues/28879
 jornaldacidadeonline.com.br#%#//scriptlet('trusted-suppress-native-method', 'Document.prototype.querySelector', '"body"', 'abort')
 ! TODO: remove the condition once scriptlet library v2.2.0 comes to extensions: https://github.com/AdguardTeam/Scriptlets/issues/416
-!#if (adguard_app_windows || adguard_app_mac || adguard_app_android || ext_ublock)
+!#if (adguard_app_windows || adguard_app_mac || adguard_app_android || adguard_app_cli || ext_ublock)
 jornaldacidadeonline.com.br#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,important,domain=jornaldacidadeonline.com.br
 !#endif
@@ -1188,7 +1188,7 @@ hobba.tv#@##ad-box
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34477
 radiotormentamx.com#$##ad { position: absolute!important; left: -3000px!important; }
 radiotormentamx.com#$##adsdiv  { position: absolute!important; left: -3000px!important; }
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli)
 @@||radiotormentamx.com^$generichide
 @@||radiotormentamx.com/images/*.jpg#
 @@.png#$domain=radiotormentamx.com
@@ -1216,7 +1216,7 @@ sejasaudavel.net#$#.content #src_iframe { display: block !important; }
 ||static.criteo.net/js/px.js?ch=$redirect=nooptext,important,domain=jovempan.uol.com.br
 ||cas.criteo.com/delivery/ajs.php$redirect=nooptext,important,domain=jovempan.uol.com.br
 ! https://github.com/AdguardTeam/AdguardFilters/issues/31876
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_chromium && !adguard_ext_edge)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli && !adguard_ext_chromium && !adguard_ext_edge)
 @@||eldaryasolutiongame.blogspot.com^$generichide
 @@.jpg#$domain=eldaryasolutiongame.blogspot.com
 @@.png#$domain=eldaryasolutiongame.blogspot.com
@@ -1246,11 +1246,11 @@ animeshouse.net#%#//scriptlet("abort-current-inline-script", "document.addEventL
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26647
 @@.js?ad=banner*_adsense_*.json$domain=pokyun.tv
 @@||c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js$domain=pokyun.tv
-!#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
+!#if (adguard_app_windows || adguard_app_mac || adguard_app_android || adguard_app_cli)
 ||an.facebook.com/v*/instream/vast.xml?*pokyun.tv$redirect=nooptext,important,domain=pokyun.tv
 ||ima3vpaid.appspot.com/?adTagUrl=$redirect=nooptext,important,domain=pokyun.tv
 !#endif
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
+!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli)
 @@||ima3vpaid.appspot.com/?adTagUrl=$domain=pokyun.tv
 @@||an.facebook.com/v*/instream/vast.xml?*pokyun.tv$domain=pokyun.tv
 ||scontent-*.xx.fbcdn.net/v/*.mp4?$media,domain=pokyun.tv
