@@ -11113,6 +11113,7 @@ wykop.pl#?#aside.tag-top > .hits-slider:matches-css(before, content: /^reklama$/
 wykop.pl##.lisek-app
 wykop.pl##.lidl-polska
 wykop.pl##body .pub-slot-wrapper
+wykop.pl##.sidebar > aside > section[class]:has(> .wrapper > a[href*="clk.tradedoubler.com"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23704
 wykop.pl###wpladtop
 wykop.pl##a[href^="https://www.wykop.pl/adverts"]
