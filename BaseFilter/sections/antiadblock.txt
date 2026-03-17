@@ -38,7 +38,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/15840
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39593
 @@/assets/js/advertisement.js$~third-party
-@@/js/ads.js|$script,~third-party,domain=~internethaber.com|~knaqu.tv
+@@/js/ads.js|$script,~third-party,domain=~internethaber.com|~knaqu.tv|~5ch.io
 @@/js/advert.js$~third-party
 @@/jannah/*js/advertisement.js|$~third-party
 @@/themes/flow/frontend_assets/js/advertisement.js|$~third-party
