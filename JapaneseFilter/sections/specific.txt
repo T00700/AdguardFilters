@@ -60,6 +60,11 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+/ad_overlay.css$domain=39news.net|3punchiebukuro.info|catheart.pet|davincinews.info|dogheart.pet|entame-news.info|entame-trendnews.info|ichi-oshi.info|lettuceclub.site|mainichigahakken.info|mamanote.info|point-dengekihobby.jp|point-thetv.jp|presslink.jp|tamahiyo.site|trend-news.fun|walkerplus.info
+39news.net,3punchiebukuro.info,catheart.pet,davincinews.info,dogheart.pet,entame-news.info,entame-trendnews.info,ichi-oshi.info,lettuceclub.site,mainichigahakken.info,mamanote.info,point-dengekihobby.jp,point-thetv.jp,presslink.jp,tamahiyo.site,trend-news.fun,walkerplus.info##.article-FooterOverlay
+39news.net,3punchiebukuro.info,catheart.pet,davincinews.info,dogheart.pet,entame-news.info,entame-trendnews.info,ichi-oshi.info,lettuceclub.site,mainichigahakken.info,mamanote.info,point-dengekihobby.jp,point-thetv.jp,presslink.jp,tamahiyo.site,trend-news.fun,walkerplus.info##[class*="BannerWrapper"]
+39news.net,3punchiebukuro.info,catheart.pet,davincinews.info,dogheart.pet,entame-news.info,entame-trendnews.info,ichi-oshi.info,lettuceclub.site,mainichigahakken.info,mamanote.info,point-dengekihobby.jp,point-thetv.jp,presslink.jp,tamahiyo.site,trend-news.fun,walkerplus.info#$##js_detail-Interstitial_Div { display: none !important; }
+39news.net,3punchiebukuro.info,catheart.pet,davincinews.info,dogheart.pet,entame-news.info,entame-trendnews.info,ichi-oshi.info,lettuceclub.site,mainichigahakken.info,mamanote.info,point-dengekihobby.jp,point-thetv.jp,presslink.jp,tamahiyo.site,trend-news.fun,walkerplus.info#$#.article-OverflowHidden { overflow: auto !important; }
 saiganak.com##div.entry-adcenter
 saiganak.com##.container > .entry-product:has(> a[href^="https://www.amazon.co.jp/"])
 my-favorite-giants.net##div[id^="main_pr_"]
