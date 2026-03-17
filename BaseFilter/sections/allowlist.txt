@@ -131,6 +131,9 @@ $popup,third-party,domain=dood.ws,badfilter
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227189
+!+ PLATFORM(windows, mac, android, cli)
+||flashtalking.com^$image,redirect-rule=1x1-transparent.gif,domain=racenet.com.au
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227099
 @@||go.trvdp.com/init/$domain=olhardigital.com.br
 @@||s.trvdp.com/scripts/*/ins.js$domain=olhardigital.com.br
