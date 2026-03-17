@@ -6981,6 +6981,7 @@ roweroweporady.pl#@#.ad_container
 @@||lib.wtg-ads.com/prebid/prebid_*.js$domain=tvn.pl
 !
 !
+morizon.pl##.banner-placeholder
 android.com.pl##a[href^="https://and.co.pl/"][rel*="sponsored"]
 android.com.pl##.products-feed__tag
 android.com.pl##a[href="https://biznesenter.pl/"] > img[alt^="Baner"]
@@ -7199,7 +7200,7 @@ wgospodarce.pl##.adunit-player-constant-height
 motopass.pl###zox-lead-top-wrap
 ||poscigi.pl/wp-content/uploads/*/Baner_
 tvrepublika.pl##.block--type-advertisement
-prawo.pl,polski-tenis.pl,bizpolis.pl,wyniki.pl,telepolis.pl##.banner
+morizon.pl,prawo.pl,polski-tenis.pl,bizpolis.pl,wyniki.pl,telepolis.pl##.banner
 interia.pl##div[data-component^="ad-"]
 lca.pl##.baner
 lca.pl##body.toplayer-visible .new-toplayer
