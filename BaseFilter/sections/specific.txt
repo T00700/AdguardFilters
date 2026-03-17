@@ -917,6 +917,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+file.supjavhd.to###poster
 iqsaved.com##.main__block > div.page__inner:has(> div.context > div.context__caption)
 sflix.film,netnaija.film##div[class^="fixed inset-0 z-[22] w-full h-full bg-black/60 flex items-center justify-center px-4 md:px-0"]
 thestreet.com##div[class^="styles_headerAdSlot__"]
@@ -12842,7 +12843,7 @@ livelaw.in##div[data-category="banner_ad"]
 autotrader.co.uk##.gpt-billboard
 mystorbox.de,mydrive.ch###sidebar > div.softronics
 longfiles.com##p > a[href*="/vip.php"][rel="nofollow"] > img
-telorku.xyz,tojav.net,player.tubeqd.tv,javtc.*,findercdn.me,javqd.tv,javmec.*,maxcdn.cloud,javdoe.com###preroll
+file.supjavhd.to,telorku.xyz,tojav.net,player.tubeqd.tv,javtc.*,findercdn.me,javqd.tv,javmec.*,maxcdn.cloud,javdoe.com###preroll
 javpro.cc,javtc.*,javmec.*##div[style^="height: 250px;overflow: hidden;"]
 indiatoday.in##.inline-story-add
 ||webnovelonline.com/static/media/banner_
