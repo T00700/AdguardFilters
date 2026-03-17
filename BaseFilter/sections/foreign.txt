@@ -2899,6 +2899,9 @@ mtvuutiset.fi##.leaderboard
 !
 ! NOTE: Georgian
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227168
+||mykadri.tv/preroll/
+mykadri.tv##.avc-asvla
 ! https://github.com/uBlockOrigin/uAssets/issues/29952
 ||pillexplorer.com^
 amindi.org#%#//scriptlet('abort-current-inline-script', '$', 'window.open')
