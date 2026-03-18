@@ -69,6 +69,7 @@
 !
 !
 !
+||wobs.route.com^
 ||mythtracker.com^
 ||mushroomgods.com^
 ||t-dsp.pinduoduo.com^
