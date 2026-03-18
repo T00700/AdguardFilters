@@ -917,6 +917,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+interestingengineering.com##.t-grid iframe.undefined
 xvideos.*##.exo-ad-ins-container
 milfcaps.com##.footer-ad-all
 milfcaps.com###menu-main-menu > li:has(> a[href="https://theporndude.com/"])
