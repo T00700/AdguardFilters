@@ -354,6 +354,7 @@ ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-
 !
 ! NOTE: Regular rules
 !
+download.trimble.com##.cookies-settings-dialog-content
 supplierassurance.com###global-cookie-message-holder
 dilosi.services.gov.gr#%#//scriptlet('trusted-set-cookie', 'dilosi_cookie', 'Accept_cookies')
 shangri-la.com#$##js-cookie-modal { display: none !important; }
