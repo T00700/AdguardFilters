@@ -5984,7 +5984,7 @@ shop.tecsafe.de#$#.page-wrap--cookie-permission { display: none !important; }
 shop.tecsafe.de#%#//scriptlet('remove-class', 'cookie--not-set', 'body')
 sdelsol.com##.COOKIES
 commsec.com.au#?#.announcements > .closeable.priority-2:has(> .container > span > p > a[href*="/cookies.html"])
-/privacy-layer$domain=teufel.de|teufel.ch|teufelaudio.*
+teufelaudio.*,teufel.*##privacy-layer
 stilkuhni.ru##.js-cookie-popup-container
 black.sk,wubertools.pl,kocbayi.com.tr#$#.cookie-modal { display: none !important; }
 black.sk,wubertools.pl,kocbayi.com.tr#$#.modal-backdrop { display: none !important; }
