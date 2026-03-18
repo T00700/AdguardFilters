@@ -917,6 +917,8 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+milfcaps.com##.footer-ad-all
+milfcaps.com###menu-main-menu > li:has(> a[href="https://theporndude.com/"])
 file.supjavhd.to###poster
 iqsaved.com##.main__block > div.page__inner:has(> div.context > div.context__caption)
 sflix.film,netnaija.film##div[class^="fixed inset-0 z-[22] w-full h-full bg-black/60 flex items-center justify-center px-4 md:px-0"]
