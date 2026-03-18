@@ -3660,8 +3660,6 @@ hindikhabarwaala.com##.post-content > div.post-text > p > img[src^="http://hindi
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79204
 thebharatnews.net##.textwidget > p > img[class*="wp-image"]
 thebharatnews.net##a[rel="bookmark"][style^="background-image: url("]
-! https://github.com/AdguardTeam/AdguardFilters/issues/79165
-aajtak.in##.event_home_banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/22120
 hindi.business-standard.com#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "displayMessage:")
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
