@@ -111,7 +111,6 @@ cleverfit.fitness-konzepte.de#%#//scriptlet('set-local-storage-item', 'one_stats
 ||unleash-edge-prod.penpencil.co/api/frontend/client/metrics
 ||videotools.ocdn.eu/plugins/fp/
 ||analytics-fe.digital-cloud-west.medallia.com^
-tv-tokyo.co.jp##.tbcms_plus-pickup
 ||openpanel.dev/op1.js
 ||tongji.90dao.com^$ping
 ||cdn1.irontive.com/apps/ironpixel.js
