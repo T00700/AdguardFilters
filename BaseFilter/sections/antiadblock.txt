@@ -2997,12 +2997,15 @@ hentaipig.com#%#//scriptlet('remove-node-text', 'script', 'detectAdBlock')
 getexploits.com#%#//scriptlet('prevent-fetch', 'googleads.g.doubleclick.net')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||googleads.g.doubleclick.net^|$xmlhttprequest,domain=getexploits.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/227288
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191816
-arldeemix.com#$#body { overflow-y: auto !important; }
-arldeemix.com#$#.adblock-container { display: none !important; }
-arldeemix.com#%#//scriptlet('prevent-setTimeout', '.offsetHeight')
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
+flycutlink.com,arldeemix.com#$#body { overflow-y: auto !important; }
+flycutlink.com,arldeemix.com#$#.adblock-container { display: none !important; }
+flycutlink.com,arldeemix.com#%#//scriptlet('prevent-setTimeout', '.offsetHeight')
+!#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb)
+@@||flycutlink.com^$generichide
 @@||arldeemix.com^$generichide
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191570
 techmize.net,atravan.net#%#//scriptlet('prevent-xhr', 'adsbygoogle')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
