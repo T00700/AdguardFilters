@@ -6984,6 +6984,7 @@ roweroweporady.pl#@#.ad_container
 @@||lib.wtg-ads.com/prebid/prebid_*.js$domain=tvn.pl
 !
 !
+atlasetf.pl##a.nav-link[target="_blank"] > img
 forexclub.pl###a_flex
 forexclub.pl###header_widget-6
 forexclub.pl###header_widget-18
