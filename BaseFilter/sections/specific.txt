@@ -917,6 +917,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+crackrelease.com##.monetumo-ad-slot
 interestingengineering.com##.t-grid iframe.undefined
 xvideos.*##.exo-ad-ins-container
 milfcaps.com##.footer-ad-all
