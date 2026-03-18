@@ -9801,6 +9801,8 @@ businessinsider.com.pl##.adsContainer
 businessinsider.com.pl##.adSlotWidget
 businessinsider.com.pl###main > .sH_bottom_first
 businessinsider.com.pl##[class*="placeholder"][data-configuration*="slotName"][data-run-module$="Ad"]
+businessinsider.com.pl##.gratka-widget-placeholder
+||gratka.pl/feed/$domain=businessinsider.com.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75192
 portal-polski.pl##a[href^="https://webep1.com/"] > img
 portal-polski.pl#$#.hustle_module_id_4 { display: none !important; }
