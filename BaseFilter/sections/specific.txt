@@ -917,6 +917,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+xvideos.*##.exo-ad-ins-container
 milfcaps.com##.footer-ad-all
 milfcaps.com###menu-main-menu > li:has(> a[href="https://theporndude.com/"])
 file.supjavhd.to###poster
@@ -12300,7 +12301,7 @@ iceporn.com##.spot-300x100
 fileriver.net##center > a[onclick*="https://href.li"]
 fileriver.net##.wlm-container
 britannica.com##.video-ad-container
-tophentaicomics.com##.thumb-ad
+xvideos.*,tophentaicomics.com##.thumb-ad
 tophentaicomics.com##.sidebar > div.widget_text.sidebar-wrapper
 ||tophentaicomics.com/istrippers.jpg
 ||tophentaicomics.com/pop.js
