@@ -2221,8 +2221,6 @@ uptobox.com##.ad-square
 kinopoisk.ru###brandingFlash
 kinopoisk.ru##.direct-kp-customize
 ||st.kp.yandex.net/images/bnnr/$domain=kinopoisk.ru
-! https://github.com/AdguardTeam/AdguardFilters/issues/2730
-on-movie.net##body > div[class^="skin-block_"][style^="background-image: url(data:image/jpeg;base64"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/2669
 bnonews.com##.adsbygoogle
 bnonews.com##.advertisement
