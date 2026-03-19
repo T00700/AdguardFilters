@@ -354,6 +354,7 @@ ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-
 !
 ! NOTE: Regular rules
 !
+avanza.se##aza-cookie-message
 quiosque.pl#%#//scriptlet('trusted-set-cookie', 'CookiePolicy', '{"security_storage":true,"ad_storage":false,"analytics_storage":false,"functionality_storage":false,"personalization_storage":false,"ad_personalization":false,"ad_user_data":false}')
 investments.targobank.de##tab-consent-manager
 i-tech.su##.warning_cooc_wrap
