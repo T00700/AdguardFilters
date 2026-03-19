@@ -1253,6 +1253,14 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/226997
+powerleagueprodigy.com#$#body { overflow: auto !important; padding-right: 0 !important; }
+powerleagueprodigy.com#$#div[aria-labelledby="adblock-modal-title"] { display: none !important; }
+!#if (adguard_app_ios || adguard_ext_android_cb || adguard_ext_safari)
+powerleagueprodigy.com#@#ins.adsbygoogle[data-ad-slot]
+powerleagueprodigy.com#@#ins.adsbygoogle[data-ad-client]
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=powerleagueprodigy.com
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227253
 dilar.tube#@#.ad-unit:not(.textads)
 ! la7.it
