@@ -20418,6 +20418,9 @@ circleofcricket.com##div.container-full.add:has(> a[href]:first-child)
 !+ PLATFORM(windows, mac, android, cli)
 livehindustan.com#%#//scriptlet('googletagservices-gpt')
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227359
+prospectmagazine.co.uk#%#//scriptlet('trusted-replace-node-text', 'script', 'stickyOffset', '/const ad = document\.getElementById\(.*;/', 'const ad = document.getElementById("menuToggle");')
+!
 ! fly.inc
 djbassking.club,uaeboy.ae,csyildizi.com,mealold.com,pasflav.online,nidbdcheck.com,9sblog.com,newselab.com,glowandglamcorner.com,dadinthemaking.com,listofthis.com,phineypet.com,beautifulfashionnailart.com,americanstylo.com###desktop-ad-container
 [$domain=/^(stellar|halo|echo)\.[^.]+\.[a-z]/]##center:has(div[class^="container"] > div[class^="ad"])
