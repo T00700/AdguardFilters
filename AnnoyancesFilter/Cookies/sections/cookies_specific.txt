@@ -3463,7 +3463,7 @@ top4mobile.hr#$#body #cookieModal { display: none !important; }
 top4mobile.hr#$#body:not([data-bs-overflow]) .modal-backdrop { display: none !important; }
 top4mobile.hr#$#body:not([data-bs-overflow]) { overflow: auto !important; padding-right: 0 !important; }
 e-tec.at#%#//scriptlet('set-cookie', 'cc_granted', 'true')
-handelsbanken.no#%#//scriptlet('set-cookie', 'shb-consent-cookies', 'false')
+handelsbanken.com,handelsbanken.no#%#//scriptlet('set-cookie', 'shb-consent-cookies', 'false')
 sslmentor.com#$#.modal-backdrop { display: none !important; }
 sslmentor.com#$##cookie-modal { display: none !important; }
 sslmentor.com#$#body.modal-open { overflow: auto !important; }
