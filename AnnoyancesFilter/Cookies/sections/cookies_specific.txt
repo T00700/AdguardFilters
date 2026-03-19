@@ -12162,7 +12162,7 @@ my.kaspersky.com##.js-cookie-notification-banner
 flir.com##.philadelphia-optin-visible
 translit.ru,translit.net#$#.tPechenkiInfoblock { display: none!important; }
 overclockers.com###cookieControlWrapper
-abgreyd.servis2010.ru###uni-notification
+world-devices.ru,abgreyd.servis2010.ru###uni-notification
 ||scripts.tv2a.dk/oil/oil.js
 podecomparar.com.br,gazelektrik.com,akillitarife.com###ac-cookie-compliance
 happymod.ru,happymod.cloud,freepng.ru,cleanpng.com,pngindir.com##.fot-fixd
