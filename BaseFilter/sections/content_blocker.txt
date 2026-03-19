@@ -327,7 +327,6 @@ cdn.braun634.com^$third-party
 @@||vviruslove.com^$generichide
 @@||shrinkurl.org^$generichide
 @@||yannik.biz^$generichide
-@@||planet-streaming1.com^$generichide
 @@||anonymous-links.com^$generichide
 @@||series-streaminghd.com^$generichide
 @@||iptunnels.com^$generichide
