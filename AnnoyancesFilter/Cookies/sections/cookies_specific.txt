@@ -354,6 +354,7 @@ ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-
 !
 ! NOTE: Regular rules
 !
+worldbox.pl##cookie-consent-manager
 cinemark.com.br#%#//scriptlet('trusted-set-cookie', 'cookies_config', 'deny')
 spmaiscultura.prefeitura.sp.gov.br#%#//scriptlet('trusted-set-cookie', 'spmaiscultura-prefs', '%7B%22functional%22%3Atrue%2C%22analytics%22%3Afalse%7D')
 avanza.se##aza-cookie-message
