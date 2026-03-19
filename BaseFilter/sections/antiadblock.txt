@@ -7890,8 +7890,6 @@ codingnepalweb.com#$##cn-detect { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91130
 @@/wp-banners.js$domain=azsoft.*|downfile.site
 link1s.com,azsoft.*,downfile.site#%#//scriptlet("abort-current-inline-script", "document.getElementById", "style.display")
-! https://github.com/AdguardTeam/AdguardFilters/issues/88037
-thepoorcoder.com#%#//scriptlet("set-constant", "adblockDetector", "noopFunc")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85312
 @@||audiotag.info/js/adblockDetectorWithGA.js
 audiotag.info#%#//scriptlet("set-constant", "canRunAds", "true")
