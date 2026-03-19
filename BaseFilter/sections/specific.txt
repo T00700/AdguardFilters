@@ -917,6 +917,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+pornhub.org##.emptyBlockSpace
 pandamovies.org#%#//scriptlet('remove-node-text', 'script', 'mainAds')
 metacritic.com##.fandom-ad-placeholder
 perezhilton.com##.lazy-ad-parent
