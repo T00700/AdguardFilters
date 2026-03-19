@@ -354,7 +354,6 @@ cdn.braun634.com^$third-party
 @@||rahim-soft.com^$generichide
 @@||mondainai.moe^$generichide
 @@||belajarbro.id^$generichide
-@@||animesanka.club^$generichide
 @@||myuploadedpremium.de^$generichide
 @@||freeomovie.to^$generichide
 @@||leechpremium.link^$generichide
