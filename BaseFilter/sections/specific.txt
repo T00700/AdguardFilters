@@ -917,6 +917,10 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+||malavida.com/jsu_$script
+||malavida.com/*/download$doc,replace=/\(popupOn\)/(false)/
+malavida.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'popupOn')
+malavida.com###installer-popup
 crackrelease.com##.monetumo-ad-slot
 interestingengineering.com##.t-grid iframe.undefined
 xvideos.*##.exo-ad-ins-container
