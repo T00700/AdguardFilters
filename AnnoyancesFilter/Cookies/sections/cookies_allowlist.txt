@@ -621,7 +621,8 @@ omegawatches.com#@##notice-cookie-block
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204690
 apps.dirittopratico.it#@##cookieChoiceInfo
 apps.dirittopratico.it#@##cookieinfo
-! metacritic.com - videos not playing
+! https://github.com/AdguardTeam/AdguardFilters/issues/227342
+@@||cdn.cookielaw.org/consent/*.json$domain=metacritic.com
 @@||geolocation.onetrust.com/cookieconsentpub/$domain=metacritic.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204432
 otpbank.md#@#.cookie-panel:not(body):not(html)

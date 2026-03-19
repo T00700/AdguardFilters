@@ -917,6 +917,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+metacritic.com##.fandom-ad-placeholder
 perezhilton.com##.lazy-ad-parent
 perezhilton.com##div[class$="-ad-container"]
 ||malavida.com/jsu_$script
