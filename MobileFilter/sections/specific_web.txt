@@ -193,7 +193,6 @@ thetoc.gr##.mg_underhero
 m.yelp.com##div[class*="new-serpia-"] > ol > li:has(a[href^="/adredir?"])
 m.yelp.com##div[class*="new-serpia-"] > ol > li:has(> div[class*="sponsored-icon"])
 4j.com###Games_TopAdDiv
-mydealz.de##div[class]:has(> .ad--bg:only-child)
 amazon.*###softlines-btf-substitute-zone-container-3_feature_div
 amazon.*###softlines-mobile-btf-discovery-zone-T3_feature_div
 accuradio.com##div[class^="MobileBottomAd"]
