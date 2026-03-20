@@ -917,6 +917,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+xmoviesforyou.com##.grid > article.group.relative:has(> span.text-on-surface-variant)
 bigshare.io##.artplayer-ads
 bigshare.io##.artplayer-overlay
 bigshare.io##.artplayer-counter
