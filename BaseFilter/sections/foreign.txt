@@ -4084,6 +4084,7 @@ bb.is$$div[class="banner"]
 !
 ! NOTE: Indian
 !
+indiaglitz.com##.mrb-banners-wrapper
 cinejosh.com##header > .container:has(> div > .googleAdsSponsered)
 tupaki.com##div[class^="inside-post-ad-"]
 tupaki.com##.paira-h4 > p:has(> br)
