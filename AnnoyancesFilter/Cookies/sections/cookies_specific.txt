@@ -354,6 +354,7 @@ ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-
 !
 ! NOTE: Regular rules
 !
+||airmore.ai/wp-content/themes/airmore-en/assets/js/cookies-tip-
 digital-eliteboard.com##.js-bottomFixTarget
 pachca.com##body > div[class]:has(> p.text-muted-foreground > a[href="/cookie-policy"])
 vibrationresearch.com#%#//scriptlet('trusted-set-cookie', 'vr_opt_in_analytics', 'false', '', '/', 'vibrationresearch.com')
