@@ -1822,8 +1822,6 @@ lubetube.com##.sidead
 manta.com##.adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/10728
 @@||pressgazette.co.uk^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/9833
-@@||food-tiger.de^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/9534
 pallok.com##.adsbygoogle
 @@||pallok.com^$generichide
