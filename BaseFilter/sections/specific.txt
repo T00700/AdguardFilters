@@ -6012,6 +6012,7 @@ leagueofgraphs.com###OWAppBanner
 ||ultimate-guitar.com/static/public/build/prebid_
 /ezais/dynamic?$domain=portableapps.com|theaviationist.com|hardreset.info
 crx4chrome.com##div:is(.blogposts-wrapper, [style^="margin:"]) > .topic[style^="min-height:"]
+!+ NOT_OPTIMIZED
 menshaircuts.com##div[class*="cut-off-ad"]
 rule34video.com##.spot-thumb
 emailnator.com##.App div.row > div.mb-3:has(> ins.adsbygoogle)
