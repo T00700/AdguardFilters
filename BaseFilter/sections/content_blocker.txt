@@ -1909,7 +1909,6 @@ mathb-ege.sdamgia.ru##.content >div[style="margin-bottom:20px"] > div[style="wid
 @@||ofertasahora.com^$generichide
 @@||orduh.com^$generichide
 @@||organichealthcorner.com^$generichide
-@@||otimundo.com^$generichide
 @@||ovnihoje.com^$generichide
 @@||parhaye.com^$generichide
 @@||prdnews.com^$generichide
