@@ -28,6 +28,7 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||metrics-content.duckduckgo.com^
 ||analytics.morphe.software^
 ||a.n11.com^
 ||h.n11.com^
