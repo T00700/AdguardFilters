@@ -258,7 +258,6 @@ cdn.braun634.com^$third-party
 @@||pcso-lottoresults.com^$generichide
 @@||jagoanssh.com^$generichide
 @@||cryptojunkie.net^$generichide
-@@||99btc.top^$generichide
 @@||dynamicpapers.com^$generichide
 @@||wouterplanet.com^$generichide
 @@||coinles.com^$generichide
