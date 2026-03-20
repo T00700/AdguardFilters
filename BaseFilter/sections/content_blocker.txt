@@ -224,7 +224,6 @@ cdn.braun634.com^$third-party
 @@||dogestar.website^$generichide
 @@||blog.krcesdev.com^$generichide
 @@||faucet.plus^$generichide
-@@||crypto-fun-faucet.de^$generichide
 @@||nyaa.net^$generichide
 @@||omgexploits.com^$generichide
 @@||tekfiz.com^$generichide

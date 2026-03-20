@@ -11574,8 +11574,6 @@ claimto.xyz##a[href^="https://www.bitsler.com/"] > img
 seopolarity.com,toolss.net,webnots.com##.sidebar_adds
 ||careercontessa.com/img/sidebar-promo-power-moves-*.png
 slideshare.net##.scribd-ad
-crypto-fun-faucet.de##a[href^="https://rollercoin.com/"]
-crypto-fun-faucet.de###captcha-adspace > p > a[target="_blank"][rel="noopener"]
 ||jav.si/js/mMbVAA7.js
 ||jav.si/js/zplay.js
 naijaray.com.ng##.code-block > a[onclick] > img
@@ -11663,7 +11661,6 @@ erotic-beauties.com##.sidebar > .widget_text
 rumporn.com,stilltube.com###floaterRight
 history.com##.m-gallery-overlay--ad-top
 history.com##.m-gallery-overlay--ad-right
-crypto-fun-faucet.de##a[href^="https://r.honeygain.me"]
 howtogeek.com###content > aside#secondary ~ div.article-bottom
 nytimes.com##.pz-ad-box
 ||claimbits.net/trump-gif-300x100.gif
