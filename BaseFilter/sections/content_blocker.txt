@@ -258,7 +258,6 @@ cdn.braun634.com^$third-party
 @@||pcso-lottoresults.com^$generichide
 @@||jagoanssh.com^$generichide
 @@||cryptojunkie.net^$generichide
-@@||99btc.top^$generichide
 @@||dynamicpapers.com^$generichide
 @@||wouterplanet.com^$generichide
 @@||coinles.com^$generichide
@@ -321,7 +320,6 @@ cdn.braun634.com^$third-party
 @@||csgo-ranks.com^$generichide
 @@||hakie.net^$generichide
 @@||safetxt.net^$generichide
-@@||nodkey.xyz^$generichide
 @@||raphsonbd.com^$generichide
 @@||unity3diy.blogspot.com^$generichide
 @@||vviruslove.com^$generichide
@@ -380,7 +378,6 @@ cdn.braun634.com^$third-party
 @@||business-mortgage.pw^$generichide
 @@||credits-loan.pw^$generichide
 @@||business-credits.cc^$generichide
-@@||loan-trading.net^$generichide
 @@||mmo-population.com^$generichide
 @@||memoriadatv.com^$generichide
 @@||sarapbabe.com^$generichide
@@ -426,7 +423,6 @@ cdn.braun634.com^$third-party
 @@||gvmp.de^$generichide
 @@||erovoice.us^$generichide
 @@||comptoir-hardware.com^$generichide
-@@||157.245.202.123^$generichide
 @@||apkgezegeni.com^$generichide
 @@||vstx.ru^$generichide
 @@||courseforfree.com^$generichide

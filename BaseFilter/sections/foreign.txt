@@ -4863,8 +4863,6 @@ inews.id##.ads_sticky_footer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50159
 katadata.co.id##.center-belt
 katadata.co.id##.footer_sticky
-! https://github.com/AdguardTeam/AdguardFilters/issues/48923
-157.245.202.123#%#//scriptlet("abort-current-inline-script", "decodeURI", "4zz.")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48650
 pradjadj.com##.widget_abd_shortcode_widget
 pradjadj.com#%#//scriptlet("set-constant", "google_jobrunner", "noopFunc")
