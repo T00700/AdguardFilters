@@ -973,7 +973,6 @@ attractionsmagazine.com##a[href^="https://mousefantravel.com/"]
 missav.run##a[href="https://whos.tv"]
 missav.run##.banner-box
 missav.run##.grid > div.video-card:not([id])
-winaero.com##.windiv
 javxxx.me###menu-main > li.nav-item:has(> a[rel^="sponsored"])
 viexx.com##.info-banner
 ||static.opensubtitles.org/libs/js/ray-announcement-bar.js
