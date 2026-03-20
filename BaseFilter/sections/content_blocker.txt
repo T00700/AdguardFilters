@@ -1762,8 +1762,6 @@ abc.es#@#.div-gpt-ad
 denofgeek.com#@#.plainAd
 ! https://github.com/AdguardTeam/AdguardFilters/issues/36644
 @@||nu.nl/static/js/advertising.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/19960
-@@||bolgegundem.com/s/advertisement.js
 ! ! https://github.com/AdguardTeam/AdguardFilters/issues/35046
 @@||rp5.by^$generichide
 @@||rp5.kz^$generichide
