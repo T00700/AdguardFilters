@@ -920,6 +920,10 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+||navigator.az//files/banners/
+navigator.az##.ad__banner
+navigator.az##.feature__banner__desktop
+navigator.az##.intro__section__left:has(> a[href="https://xerotek.az/"])
 tm-earn.com##.banner-inner
 tm-earn.com#%#//scriptlet('abort-on-property-read', 'open')
 xmoviesforyou.com##.grid > article.group.relative:has(> span.text-on-surface-variant)
