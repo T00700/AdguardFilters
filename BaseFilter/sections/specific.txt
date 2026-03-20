@@ -1255,7 +1255,7 @@ theblock.co##div[qa-test-id="article-cta"]
 interestingengineering.com#?#.t-w-full:has(> .t-max-w-full:contains(advertisement))
 interestingengineering.com#?#aside.t-w-full:has(> div > .t-flex > .t-flex-col > .overline-small:contains(advertisement))
 interestingengineering.com#?#.t-w-full:has(> span.t-text-xs:contains(Advertisement))
-camwhores.video#%#//scriptlet('set-constant', 'flashvars.adv_postpause_src', '')
+camwhores.*#%#//scriptlet('set-constant', 'flashvars.adv_postpause_src', '')
 ||cdn.camwhores.tv/contents/player2/player/*mp4$media,domain=camwhores.video
 freeroms.com##p[style="margin-top: 20px; font-size: 15px;"]
 gupload.xyz##div[class^="custom-popup-overlay-"]
