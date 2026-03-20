@@ -426,7 +426,6 @@ cdn.braun634.com^$third-party
 @@||gvmp.de^$generichide
 @@||erovoice.us^$generichide
 @@||comptoir-hardware.com^$generichide
-@@||157.245.202.123^$generichide
 @@||apkgezegeni.com^$generichide
 @@||vstx.ru^$generichide
 @@||courseforfree.com^$generichide
