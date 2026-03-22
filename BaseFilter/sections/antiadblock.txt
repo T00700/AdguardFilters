@@ -1253,6 +1253,8 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227518
+aagmaal.cx###vpAdblockOverlay
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227416
 law.ravellawfirm.com###adblock-overlay
 ! https://github.com/AdguardTeam/AdguardFilters/issues/226997
