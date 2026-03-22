@@ -25,6 +25,8 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227523
+@@||supercachecdn.com/play/$media,stealth=referrer,domain=pornmedium.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/226665
 @@||mostplayer.com^$subdocument,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227211
