@@ -24,6 +24,7 @@ eloutput.com,mundobytes.com,techondicas.com,jornalrepercussao.com.br,zonaaps.com
 !
 ! NOTE: Specific rules
 !
+peliculasbluray.com##a[target="_blank"][href*="/4/"]
 barmonrey.com#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', 'adUrl')
 barmonrey.com#%#//scriptlet('prevent-addEventListener', 'click', 'openAdOnce')
 isekaitube.cfd#%#//scriptlet('json-prune', 'playerAds ads')
