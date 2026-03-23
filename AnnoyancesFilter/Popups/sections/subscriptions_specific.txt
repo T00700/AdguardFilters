@@ -57,6 +57,9 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+elpais.com.co##.prose > div.text-center:has(> a[href^="https://whatsapp.com/channel/"])
+elpais.com.co##.prose > div.not-prose:has(> form[name="newsletterForm"])
+elpais.com.co##.prose > div.leading-none:has(> a[href^="https://news.google.com/publications/"])
 fcbayern.com##div[data-upscore-zone^="content(NEWSLETTER)"]
 theonion.com##.pat-newsletter-onpage
 news.yahoo.co.jp##button[aria-label="チュートリアルを閉じる"]
