@@ -203,6 +203,7 @@ www.kinopoisk.ru##footer > div:has(> div > div[data-testid="kp-ui.amediateka-foo
 !
 ! SECTION: Self-promo - Regular rules
 !
+rakko.tools###headerAnnounceArea
 ofd.yandex.ru##img.ad-image
 secrets.tbank.ru##body > .layout > .informer-container
 ||theonion.com/wp-content/uploads/*/FULL_WIDTH_PROMO_
