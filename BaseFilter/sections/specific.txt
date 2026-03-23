@@ -1790,7 +1790,12 @@ muzzleloadingforum.com##div[data-widget-key="unlistme"]
 ||claudelog.com/js/offerwall-blur.js
 ||claudelog.com/js/offerwall-session-tracker.js
 claudelog.com#%#//scriptlet('set-session-storage-item', 'pageVisitCount', '5')
-claudelog.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'OfferwallSessionTracker')
+claudelog.com#%#//scriptlet('prevent-setTimeout', '/OfferwallSessionTracker|showContentGate|advertise/')
+claudelog.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', '/OfferwallSessionTracker|showContentGate|advertise/')
+claudelog.com##div[class^="headerSponsor_"]
+claudelog.com##.markdown > .sponsor-logo-wall
+claudelog.com##.markdown > hr + .sponsor-logo-wall + hr
+claudelog.com##.markdown > .alert:has(> div[class^="admonition"] > div[style] > div[class^="logoWrapper_"] + div[style] > span[style^="font-size:"][style*="opacity:"])
 crazygames.com##div[class^="GameInfo_rightColumn"]
 camwhores.tv,camwhores.video###camsoda-embed
 *$script,third-party,denyallow=cloudflare.com|hentaicdn.com,domain=hentai2read.com
