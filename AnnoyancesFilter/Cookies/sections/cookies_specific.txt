@@ -354,6 +354,8 @@ ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-
 !
 ! NOTE: Regular rules
 !
+ioauth.raschet.by#$#body.modal-open { overflow: auto !important; }
+ioauth.raschet.by#$##cookie-consent ~ .modal-backdrop { display: none !important; }
 mywot.com#%#//scriptlet('trusted-set-cookie-reload', 'cookies_consent_disclaimer', 'closed')
 gigasnutrition.com##pandectes-cmp
 tmetric.com###cookies-policy-notification
