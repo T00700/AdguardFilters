@@ -15,7 +15,9 @@ sites:
   HDFilmCehennemi (hdfilmcehennemi*.org):
     initial_domain: t.co/3D4ep5ZtK4
     last_known_mirror: hdfilmcehennemi27.org
-    success_since: 2026-05-25
+    failed_since: 2026-06-05 10:46
+    failed_days: 0
+    potentially_dead: true
   Patronmac (patronmac*.cfd):
     last_known_mirror: patronmac91.cfd
     success_since: 2026-06-01 15:09
@@ -36,8 +38,8 @@ sites:
     accept_antibot: true
     geoblock: TR
     force_search_ahead: true
-    last_known_mirror: papazsports1015.pro
-    success_since: 2026-06-04 08:30
+    last_known_mirror: papazsports1016.pro
+    success_since: 2026-06-05 10:46
   HiMovies (himovies.*):
     last_known_mirror: himovies.bz
     success_since: 2026-05-25
