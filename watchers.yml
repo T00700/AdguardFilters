@@ -30,7 +30,9 @@ sites:
     probe_text:
       - /jwplayer.js
     last_known_mirror: juliewomanwish.com
-    success_since: 2026-06-13 08:10
+    failed_since: 2026-06-18 05:55
+    failed_days: 0
+    potentially_dead: true
   PapazSports (papazsports*.pro):
     initial_domain: psgiris.pro
     accept_antibot: true
