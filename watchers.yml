@@ -27,9 +27,7 @@ sites:
   HDFilmCehennemi (hdfilmcehennemi*.org):
     initial_domain: t.co/3D4ep5ZtK4
     last_known_mirror: hdfilmcehennemi27.org
-    failed_since: 2026-07-17 07:42
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-07-17 14:43
   Patronmac (patronmac*.cfd):
     last_known_mirror: patronmac100.cfd
     accept_antibot: true
@@ -96,14 +94,14 @@ sites:
     accept_antibot: true
     success_since: 2026-06-22 20:05
   Sadeceifsa (sadeceifsa*.lol):
-    last_known_mirror: sadeceifsa9.com
-    success_since: 2026-07-14 01:36
+    last_known_mirror: sadeceifsa10.com
+    success_since: 2026-07-17 14:43
   Hdturkifsa (hdturkifsa*.icu):
-    last_known_mirror: hdturkifsa42.com
-    success_since: 2026-07-14 01:36
+    last_known_mirror: hdturkifsa43.com
+    success_since: 2026-07-17 14:43
   Cimcime:
-    last_known_mirror: cimcime137.live
-    success_since: 2026-07-15 01:36
+    last_known_mirror: cimcime138.live
+    success_since: 2026-07-17 14:43
   MaçtanMaça:
     last_known_mirror: mactanmaca512.sbs
     success_since: 2026-07-06 19:36
@@ -132,12 +130,12 @@ sites:
   Vidbox (vidbox.*):
     last_known_mirror: vidbox.vc
     failed_since: 2026-07-16 13:35
-    failed_days: 1
+    failed_days: 2
     potentially_dead: true
   Dizipal (dizipal*.com):
     # Original. Fake used old domain names behind by ~400 domains
-    last_known_mirror: dizipal2086.com
-    success_since: 2026-07-16 13:35
+    last_known_mirror: dizipal2087.com
+    success_since: 2026-07-17 14:43
   DiziPAL (dizi-pal*.com):
     # Fake
     last_known_mirror: dizi-pal16.com
@@ -146,14 +144,12 @@ sites:
   XyzSports (xyzsports-*.xyz):
     last_known_mirror: xyzsports-53b16cb40a.xyz
     accept_antibot: true
-    failed_since: 2026-07-16 17:02
-    failed_days: 1
-    potentially_dead: true
+    success_since: 2026-07-17 14:43
   Sporcafe (sporcafe*.com):
-    last_known_mirror: sporcafe-70d6e29469.xyz
+    last_known_mirror: www.sporcafe-e716af4ce9.xyz
     accept_antibot: true
-    success_since: 2026-07-16 17:02
+    success_since: 2026-07-17 14:43
   Askimyavas (askimyavas*.live):
     initial_domain: askimyavas.com
-    last_known_mirror: askimyavas167.live
-    success_since: 2026-07-16 17:02
+    last_known_mirror: askimyavas169.live
+    success_since: 2026-07-17 14:43
