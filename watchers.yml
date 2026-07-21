@@ -31,7 +31,9 @@ sites:
   HDFilmCehennemi (hdfilmcehennemi*.org):
     initial_domain: t.co/3D4ep5ZtK4
     last_known_mirror: hdfilmcehennemi27.org
-    success_since: 2026-07-17 09:30
+    failed_since: 2026-07-21 09:26
+    failed_days: 0
+    potentially_dead: true
   Patronmac (patronmac*.cfd):
     last_known_mirror: patronmac100.cfd
     accept_antibot: true
@@ -110,10 +112,10 @@ sites:
     last_known_mirror: mactanmaca512.sbs
     success_since: 2026-07-06 19:36
   PatronGol / Patronspor (patrongol*.cfd):
-    last_known_mirror: patrongol32.cfd
+    last_known_mirror: patrongol33.cfd
     accept_antibot: true
     force_search_ahead: true
-    success_since: 2026-07-20 09:28
+    success_since: 2026-07-21 09:26
   PatronLive / Patronspor (patronlive*.cfd):
     last_known_mirror: patronlive48.cfd
     accept_antibot: true
