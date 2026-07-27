@@ -169,10 +169,10 @@ sites:
     last_known_mirror: sultansportv0789.com
     success_since: 2026-07-17 09:30
   Yavasgir (yavasgir*.live):
-    last_known_mirror: yavasgir135.live
+    last_known_mirror: yavasgir136.live
     accept_antibot: true
     force_search_ahead: true
-    success_since: 2026-07-25 13:33
+    success_since: 2026-07-27 15:41
   Amatorifsa (amatorifsa*.com):
     last_known_mirror: amatorifsa37.com
     success_since: 2026-07-25 07:42
