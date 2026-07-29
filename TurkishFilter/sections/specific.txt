@@ -5012,8 +5012,8 @@ turkifsaclub130.sbs,turkifsaclub176.sbs,turkifsaclub177.sbs,turkifsaclub131.sbs,
 [$domain=/yavasgir\d+\.(com\|live)/]###ads-inside-main
 [$domain=/yavasgir\d+\.(com\|live)/]#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "openPopup")
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-yavasgir136.live###ads-inside-main
-yavasgir136.live#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "openPopup")
+yavasgir136.live,yavasgir141.live###ads-inside-main
+yavasgir136.live,yavasgir141.live#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "openPopup")
 !#endif
 !
 ! Frequently changed domains: cimcime*.*
