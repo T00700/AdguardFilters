@@ -17,10 +17,8 @@ sites:
     success_since: 2026-07-31 01:38
   NomorFlix (nomorflix.*):
     initial_domain: nomorflix.icu
-    last_known_mirror: nomorflix.cc
-    failed_since: 2026-07-28 13:36
-    failed_days: 16
-    potentially_dead: true
+    last_known_mirror: nomorflix.icu
+    success_since: 2026-08-13 08:20
   Vegamovies:
     initial_domain: https://vglist.top/?re=vegamovies
     # initial_domain: https://1vegamovies.tw/?re=vg
@@ -179,7 +177,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 10
+    failed_days: 11
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -216,7 +214,7 @@ sites:
     pattern_changed: true
     non_pattern_mirror: www.google.com
     failed_since: 2026-08-10 07:35
-    failed_days: 3
+    failed_days: 4
     potentially_dead: true
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
@@ -256,7 +254,7 @@ sites:
   Fixbettv (fixbettv*.com):
     last_known_mirror: fixbettv83.com
     failed_since: 2026-08-13 01:36
-    failed_days: 0
+    failed_days: 1
     potentially_dead: true
   taraftarium (taraftarium.co):
     last_known_mirror: taraftarium.co
@@ -297,9 +295,7 @@ sites:
     success_since: 2026-08-13 01:36
   Gmatv (gmatv*.live):
     last_known_mirror: gmatv51.live
-    failed_since: 2026-08-13 01:36
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-08-13 08:20
   Trgooltv (trgooltv*.top):
     last_known_mirror: trgooltv69.top
     success_since: 2026-08-13 01:36
