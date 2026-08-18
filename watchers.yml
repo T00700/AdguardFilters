@@ -31,8 +31,8 @@ sites:
     last_known_mirror: turkifsaclub130.sbs
     success_since: 2026-07-04 19:31
   Jmanga (jmanga.*):
-    last_known_mirror: jmanga.farm
-    success_since: 2026-08-10 19:24
+    last_known_mirror: jmanga.land
+    success_since: 2026-08-18 19:27
   iNat TV (inattv*.xyz):
     last_known_mirror: inattv1321.xyz
     success_since: 2026-08-01 19:28
@@ -169,7 +169,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 15
+    failed_days: 16
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -244,8 +244,8 @@ sites:
     last_known_mirror: taraftarium.co
     success_since: 2026-08-07 13:30
   Kralsports HD (kralsportshd*.xyz):
-    last_known_mirror: kralsportshd3.xyz
-    success_since: 2026-08-07 13:30
+    last_known_mirror: kralsportshd4.xyz
+    success_since: 2026-08-18 19:27
   KickAssAnime (kaa.*):
     # initial_domain: kaa.to
     last_known_mirror: kaa.lt
@@ -260,12 +260,12 @@ sites:
   Pasizle (pasizle*.com):
     last_known_mirror: pasizle858.com
     failed_since: 2026-08-10 19:24
-    failed_days: 8
+    failed_days: 9
     potentially_dead: true
   Justintvizle (justintvizle*.top):
     last_known_mirror: justintvizle730.top
     failed_since: 2026-08-07 19:23
-    failed_days: 11
+    failed_days: 12
     potentially_dead: true
   Turkifsalife (turkifsalife*.blog):
     last_known_mirror: turkifsalife46.blog
@@ -299,5 +299,5 @@ sites:
     last_known_mirror: lionlinehd165.com
     success_since: 2026-08-15 19:08
   Gizlidepo (gizlidepo*.com):
-    last_known_mirror: gizlidepo.com
-    success_since: 2026-08-18 01:32
+    last_known_mirror: gizlikasa34.com
+    success_since: 2026-08-18 19:27
