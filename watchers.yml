@@ -57,7 +57,9 @@ sites:
     probe_text:
       - /jwplayer.js
     last_known_mirror: johnbeyondnation.com
-    success_since: 2026-08-19 19:11
+    failed_since: 2026-08-20 19:30
+    failed_days: 0
+    potentially_dead: true
   PapazSports (papazsports*.pro):
     initial_domain: psgiris.pro
     accept_antibot: true
@@ -270,12 +272,12 @@ sites:
   Pasizle (pasizle*.com):
     last_known_mirror: pasizle858.com
     failed_since: 2026-08-10 19:24
-    failed_days: 10
+    failed_days: 11
     potentially_dead: true
   Justintvizle (justintvizle*.top):
     last_known_mirror: justintvizle730.top
     failed_since: 2026-08-07 19:23
-    failed_days: 13
+    failed_days: 14
     potentially_dead: true
   Turkifsalife (turkifsalife*.blog):
     last_known_mirror: turkifsalife46.blog
