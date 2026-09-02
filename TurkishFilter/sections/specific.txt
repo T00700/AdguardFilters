@@ -4981,10 +4981,10 @@ turkzzersifsa3.blog,turkzzersifsa4.blog,turkzzersifsa5.blog,turkzzersifsa6.blog,
 [$domain=/^turkifsalife\d+\.blog$/]###block-2
 [$domain=/^turkifsalife\d+\.blog$/]#%#//scriptlet('prevent-addEventListener', 'click', 'tik_sayac')
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-turkifsalife50.blog#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'app_advert')
-turkifsalife50.blog#%#//scriptlet('prevent-addEventListener', 'click', 'popUnder')
-turkifsalife50.blog###block-2
-turkifsalife50.blog#%#//scriptlet('prevent-addEventListener', 'click', 'tik_sayac')
+turkifsalife52.lat#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'app_advert')
+turkifsalife52.lat#%#//scriptlet('prevent-addEventListener', 'click', 'popUnder')
+turkifsalife52.lat###block-2
+turkifsalife52.lat#%#//scriptlet('prevent-addEventListener', 'click', 'tik_sayac')
 !#endif
 !
 ! Frequently changed domains: sotweturkifsa*.blog
