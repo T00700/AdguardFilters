@@ -41,7 +41,7 @@ sites:
     force_search_ahead: true
     last_known_mirror: piabettv18.live
     failed_since: 2026-08-19 13:21
-    failed_days: 14
+    failed_days: 15
     potentially_dead: true
   voe.sx:
     initial_domain: https://voe.sx/e/q9ed7q8sqh2d
@@ -165,8 +165,8 @@ sites:
     success_since: 2026-08-20 07:20
   Askimyavas (askimyavas*.live):
     initial_domain: askimyavas.com
-    last_known_mirror: askimyavas177.live
-    success_since: 2026-08-06 01:37
+    last_known_mirror: askimyavas186.live
+    success_since: 2026-09-02 17:00
   Sultansportv (sultansportv*.com):
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
@@ -291,7 +291,7 @@ sites:
   Taraftarium24 BJK (taraftarium24bjk*.com):
     last_known_mirror: taraftarium24bjk14.com
     failed_since: 2026-09-02 13:13
-    failed_days: 0
+    failed_days: 1
     potentially_dead: true
   Bahisligatv (bahisligatv*.com):
     last_known_mirror: bahisligatv3.com
